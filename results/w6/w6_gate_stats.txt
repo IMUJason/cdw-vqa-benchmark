@@ -1,0 +1,52 @@
+
+===== qwen3-vl-8b =====
+  L0: n=348 obj=0.345 mat=0.500 Δ=-0.155 McNemar b/c=47/101 p=1.07e-05
+  L1: n=348 obj=0.092 mat=0.109 Δ=-0.017 McNemar b/c=24/30 p=4.97e-01
+  L2: n=348 obj=0.115 mat=0.210 Δ=-0.095 McNemar b/c=26/59 p=4.47e-04
+  L3: n=348 obj=0.207 mat=0.126 Δ=0.080 McNemar b/c=56/28 p=2.99e-03
+  interaction Δ_L0−Δ_L1 = -0.138 CI95 [-0.197,-0.077]
+  Δ_L1 TOST CI90 [-0.044,0.009] (±0.05 内=等效)
+  Δ_L3 TOST CI90 [0.048,0.112]
+  tiers Δ per arm (L0/L1/L2/L3):
+    entangled: -0.200 -0.120 -0.160 -0.200
+    partial: +0.000 +0.000 +0.000 +0.000
+    material-pure: -0.067 +0.233 +0.133 +0.133
+    na: +0.000 +0.000 +0.000 +0.000
+
+===== glm-4.1v-9b =====
+  L0: n=348 obj=0.247 mat=0.394 Δ=-0.147 McNemar b/c=35/86 p=4.00e-06
+  L1: n=348 obj=0.055 mat=0.112 Δ=-0.057 McNemar b/c=17/37 p=9.07e-03
+  L2: n=348 obj=0.037 mat=0.115 Δ=-0.078 McNemar b/c=12/39 p=1.98e-04
+  L3: n=348 obj=0.095 mat=0.066 Δ=0.029 McNemar b/c=33/23 p=2.29e-01
+  interaction Δ_L0−Δ_L1 = -0.089 CI95 [-0.146,-0.033]
+  Δ_L1 TOST CI90 [-0.083,-0.031] (±0.05 内=等效)
+  Δ_L3 TOST CI90 [0.000,0.056]
+  tiers Δ per arm (L0/L1/L2/L3):
+    entangled: -0.227 -0.187 -0.320 -0.213
+    partial: +0.000 +0.000 +0.000 +0.000
+    material-pure: -0.067 -0.033 +0.033 +0.033
+    na: +0.000 +0.000 +0.000 +0.000
+
+===== qwen2.5-vl-7b =====
+  L0: n=348 obj=0.121 mat=0.477 Δ=-0.356 McNemar b/c=14/138 p=8.46e-27
+  L1: n=348 obj=0.043 mat=0.141 Δ=-0.098 McNemar b/c=11/45 p=5.38e-06
+  L2: n=348 obj=0.032 mat=0.161 Δ=-0.129 McNemar b/c=10/55 p=1.18e-08
+  L3: n=348 obj=0.057 mat=0.239 Δ=-0.181 McNemar b/c=9/72 p=2.46e-13
+  interaction Δ_L0−Δ_L1 = -0.259 CI95 [-0.312,-0.203]
+  Δ_L1 TOST CI90 [-0.124,-0.072] (±0.05 内=等效)
+  Δ_L3 TOST CI90 [-0.212,-0.151]
+  tiers Δ per arm (L0/L1/L2/L3):
+    entangled: -0.213 -0.120 -0.147 -0.213
+    partial: +0.000 +0.000 +0.000 +0.000
+    material-pure: -0.067 +0.033 +0.033 -0.100
+    na: +0.000 +0.000 +0.000 +0.000
+
+===== META (3 models) =====
+pooled interaction = -0.162 ± 0.050
+pooled Δ_L0 = -0.219
+
+===== VERDICT =====
+主判据 交互项≥10pp: False (pooled -0.162)
+辅助   Δ_L0≥15pp pooled & 逐模型同向: False (pooled -0.219)
+辅助   Δ_L1 TOST±5pp 等效: False
+W6 闸门判决: FAIL（退回 A 版路径）

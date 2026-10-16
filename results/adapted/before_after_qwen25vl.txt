@@ -1,0 +1,23 @@
+===== qwen25vl 零样本 vs LoRA 适配（test split）=====
+
+[场景] family: zs -> adapted (n)
+  F1_presence        codd     0.768 -> 0.942 (+0.174) (n=190)
+  F1_presence        cdw_seg  0.679 -> 0.786 (+0.107) (n=84)
+  F2_extent          codd     0.189 -> 0.979 (+0.789) (n=95)
+  F2_extent          cdw_seg  0.381 -> 0.738 (+0.357) (n=42)
+  F3_dominance       codd     0.471 -> 0.824 (+0.353) (n=17)
+  F3_dominance       cdw_seg  0.414 -> 0.828 (+0.414) (n=29)
+  F4_contamination   codd     0.853 -> 0.947 (+0.095) (n=95)
+  F4_contamination   cdw_seg  0.884 -> 0.884 (+0.000) (n=43)
+
+[实例-pipes正交] arm: zs_obj->ad_obj | zs_mat->ad_mat
+  L0: obj 0.095->0.899 | mat 0.596->0.777 (n=189)
+  L1: obj 0.048->0.947 | mat 0.191->0.862 (n=189)
+  L2: obj 0.016->0.894 | mat 0.176->0.867 (n=189)
+  L3: obj 0.063->0.947 | mat 0.245->0.899 (n=189)
+
+[实例-纠缠类] arm: zs->adapted (object)
+  L0: 0.381->0.571 (n=21)
+  L1: 0.048->0.524 (n=21)
+  L2: 0.286->0.571 (n=21)
+  L3: 0.238->0.619 (n=21)
