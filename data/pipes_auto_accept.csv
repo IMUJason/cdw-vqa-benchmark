@@ -1,0 +1,135 @@
+﻿diag_id,image_L3,auto_label,votes(q/g/k),qwen_raw,glm_raw,kimi_raw,audit_flag
+0,000_L3.jpg,PVC,PVC/PVC/None,plastic,<answer>plastic</answer>,,AUDIT
+2,002_L3.jpg,PVC,PVC/metal/PVC,plastic,"<think>Got it, let's look at the object. It's a coiled tube,",plastic
+4,004_L3.jpg,metal,other/metal/metal,other,"<think>Got it, let's look at the image. The object is a smal",metal
+8,008_L3.jpg,PVC,PVC/PVC/None,plastic,<answer>plastic</answer>,
+15,015_L3.jpg,PVC,PVC/metal/PVC,plastic,<answer>metal</answer>,plastic
+19,019_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,
+22,022_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,
+30,030_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,
+43,043_L3.jpg,PVC,PVC/metal/PVC,plastic,"<think>Got it, let's look at the object in the image. It's a",plastic
+44,044_L3.jpg,metal,other/metal/metal,other,"<think>Got it, let's look at the object. The object is a lon",metal
+45,045_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,,AUDIT
+49,049_L3.jpg,PVC,PVC/PVC/None,plastic,<answer>plastic</answer>,
+50,050_L3.jpg,metal,other/metal/metal,other,<answer>metal</answer>,metal
+55,055_L3.jpg,PVC,PVC/metal/PVC,plastic,"<think>Got it, let's look at the object in the image. It's a",plastic
+56,056_L3.jpg,metal,other/metal/metal,other,<answer>metal</answer>,metal
+58,058_L3.jpg,metal,other/metal/metal,other,"<think>Got it, let's try to figure out what the waste object",metal
+60,060_L3.jpg,metal,PVC/metal/metal,plastic,"<think>Got it, let's look at the object. It's a flexible tub",metal
+62,062_L3.jpg,PVC,PVC/PVC/None,plastic,<answer>plastic</answer>,
+64,064_L3.jpg,PVC,PVC/other/PVC,plastic,<answer>,plastic
+69,069_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,
+72,072_L3.jpg,metal,other/metal/metal,other,"<think>Got it, let's look at the image. The object is a smal",metal
+74,074_L3.jpg,PVC,PVC/PVC/None,plastic,<answer>plastic</answer>,
+85,085_L3.jpg,metal,other/metal/metal,other,"<think>Got it, let's look at the object. The object has a ri",metal
+87,087_L3.jpg,PVC,PVC/metal/PVC,plastic,"<think>Got it, let's try to figure out what the object is ma",plastic
+93,093_L3.jpg,PVC,PVC/metal/PVC,plastic,<answer>metal</answer>,plastic
+97,097_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,
+98,098_L3.jpg,metal,other/metal/metal,other,<answer>metal</answer>,metal
+99,099_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,
+103,103_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,
+104,104_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,
+105,105_L3.jpg,PVC,PVC/PVC/None,plastic,<answer>plastic</answer>,
+108,108_L3.jpg,PVC,PVC/PVC/None,plastic,<answer>plastic</answer>,
+110,110_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,
+112,112_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,
+115,115_L3.jpg,metal,metal/metal/None,metal,"<think>Got it, let's look at the object. It's a long, cylind",
+117,117_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,
+119,119_L3.jpg,metal,metal/metal/None,metal,"<think>Got it, let's look at the object. It's a flexible tub",
+120,120_L3.jpg,PVC,PVC/PVC/None,plastic,<answer>plastic</answer>,
+123,123_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,
+127,127_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,
+131,131_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,
+134,134_L3.jpg,metal,other/metal/metal,other,"<think>Got it, let's look at the image. The object is a long",metal
+141,141_L3.jpg,metal,other/metal/metal,other,<answer>metal</answer>,metal,AUDIT
+143,143_L3.jpg,metal,other/metal/metal,other,"<think>Got it, let's try to figure out what the object is ma",metal,AUDIT
+146,146_L3.jpg,metal,other/metal/metal,other,<answer>metal</answer>,metal,AUDIT
+156,156_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,
+157,157_L3.jpg,PVC,PVC/metal/PVC,plastic,"<think>Got it, let's look at the object. The shape and textu",plastic
+159,159_L3.jpg,PVC,PVC/metal/PVC,plastic,"<think>Got it, let's look at the object. The object has a ri",plastic
+161,161_L3.jpg,metal,other/metal/metal,other,<answer>metal</answer>,metal
+165,165_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,,AUDIT
+171,171_L3.jpg,metal,other/metal/metal,other,<answer>metal</answer>,metal
+173,173_L3.jpg,metal,other/metal/metal,other,<answer>metal</answer>,metal
+174,174_L3.jpg,PVC,PVC/PVC/None,plastic,<answer>plastic</answer>,
+180,180_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,
+183,183_L3.jpg,metal,other/metal/metal,other,<answer>metal</answer>,metal
+185,185_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,
+188,188_L3.jpg,PVC,PVC/metal/PVC,plastic,"<think>Got it, let's try to figure out what the object is ma",plastic
+189,189_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,
+190,190_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,
+191,191_L3.jpg,metal,PVC/metal/metal,plastic,<answer>metal</answer>,metal,AUDIT
+193,193_L3.jpg,PVC,PVC/PVC/None,plastic,<answer>plastic</answer>,
+198,198_L3.jpg,PVC,PVC/PVC/None,plastic,<answer>plastic</answer>,
+201,201_L3.jpg,metal,metal/metal/None,metal,<answer>metal,
+203,203_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,
+209,209_L3.jpg,PVC,PVC/metal/PVC,plastic,"<think>Got it, let's look at the object in the image. It's a",plastic,AUDIT
+210,210_L3.jpg,metal,other/metal/metal,other,<answer>metal</answer>,metal,AUDIT
+218,218_L3.jpg,metal,metal/metal/None,metal,"<think>Got it, let's look at the object in the image. It's a",
+224,224_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,
+229,229_L3.jpg,PVC,PVC/PVC/None,plastic,<answer>plastic</answer>,
+231,231_L3.jpg,PVC,PVC/metal/PVC,plastic,"<think>Got it, let's look at the object in the image. It's a",plastic
+233,233_L3.jpg,PVC,PVC/metal/PVC,plastic,"<think>Got it, let's look at the object in the image. It's a",plastic
+237,237_L3.jpg,PVC,PVC/PVC/None,plastic,<answer>plastic</answer>,
+240,240_L3.jpg,metal,other/metal/metal,other,<answer>metal</answer>,metal
+253,253_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,
+262,262_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,
+263,263_L3.jpg,PVC,PVC/PVC/None,plastic,<answer>plastic</answer>,,AUDIT
+269,269_L3.jpg,metal,other/metal/metal,other,<answer>metal</answer>,metal
+274,274_L3.jpg,PVC,PVC/PVC/None,plastic,<answer>plastic</answer>,
+280,280_L3.jpg,metal,other/metal/metal,other,<answer>metal</answer>,metal
+285,285_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,
+286,286_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,
+289,289_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,
+292,292_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,
+300,300_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,,AUDIT
+303,303_L3.jpg,metal,other/metal/metal,other,<answer>metal</answer>,metal,AUDIT
+306,306_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,
+308,308_L3.jpg,PVC,PVC/metal/PVC,plastic,"<think>Got it, let's look at the object in the image. It's a",plastic
+312,312_L3.jpg,metal,other/metal/metal,other,<answer>metal</answer>,metal
+313,313_L3.jpg,PVC,PVC/PVC/None,plastic,<answer>plastic</answer>,,AUDIT
+319,319_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,,AUDIT
+326,326_L3.jpg,PVC,PVC/metal/PVC,plastic,"<think>Got it, let's look at the object. The object is a red",plastic
+329,329_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,,AUDIT
+336,336_L3.jpg,PVC,PVC/PVC/None,plastic,<answer>plastic</answer>,
+337,337_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,
+341,341_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,
+352,352_L3.jpg,PVC,PVC/metal/PVC,plastic,"<think>Got it, let's look at the object. The object is a red",plastic
+354,354_L3.jpg,PVC,PVC/PVC/None,plastic,<answer>plastic</answer>,
+356,356_L3.jpg,PVC,PVC/metal/PVC,plastic,<answer>metal</answer>,plastic
+357,357_L3.jpg,metal,metal/metal/None,metal,"<think>Got it, let's look at the object in the image. The ob",
+360,360_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,
+365,365_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,,AUDIT
+366,366_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,
+367,367_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,,AUDIT
+369,369_L3.jpg,PVC,PVC/metal/PVC,plastic,"<think>Got it, let's look at the object. The object has a ri",plastic
+378,378_L3.jpg,PVC,PVC/metal/PVC,plastic,<answer>metal</answer>,plastic
+383,383_L3.jpg,metal,other/metal/metal,other,"<think>Got it, let's look at the object in the image. The ob",metal
+387,387_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,
+391,391_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,
+392,392_L3.jpg,PVC,PVC/metal/PVC,plastic,"<think>Got it, let's look at the object. The object is a red",plastic
+393,393_L3.jpg,metal,other/metal/metal,other,<answer>metal</answer>,metal
+394,394_L3.jpg,metal,other/metal/metal,other,"<think>Got it, let's look at the object in the image. It's a",metal
+395,395_L3.jpg,metal,other/metal/metal,other,<answer>metal</answer>,metal
+396,396_L3.jpg,metal,other/metal/metal,other,"<think>Got it, let's look at the object. The object has a da",metal,AUDIT
+397,397_L3.jpg,metal,other/metal/metal,other,<answer>metal</answer>,metal
+399,399_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,
+402,402_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,
+405,405_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,,AUDIT
+408,408_L3.jpg,PVC,PVC/PVC/None,plastic,<answer>plastic</answer>,
+419,419_L3.jpg,metal,other/metal/metal,other,<answer>metal</answer>,metal
+421,421_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,
+425,425_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,
+430,430_L3.jpg,PVC,PVC/PVC/None,plastic,<answer>plastic</answer>,
+432,432_L3.jpg,metal,other/metal/metal,other,"<think>Got it, let's look at the image. The object is a smal",metal
+436,436_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,
+438,438_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,
+439,439_L3.jpg,metal,other/metal/metal,other,<answer>metal</answer>,metal
+454,454_L3.jpg,PVC,PVC/PVC/None,plastic,<answer>plastic</answer>,
+457,457_L3.jpg,PVC,PVC/metal/PVC,plastic,<answer>metal</answer>,plastic
+458,458_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,
+463,463_L3.jpg,metal,PVC/metal/metal,plastic,"<think>Got it, let's look at the object in the image. It's a",metal
+464,464_L3.jpg,PVC,PVC/metal/PVC,plastic,<answer>metal</answer>,plastic
+468,468_L3.jpg,metal,metal/metal/None,metal,<answer>metal</answer>,,AUDIT
+470,470_L3.jpg,metal,other/metal/metal,other,<answer>metal</answer>,metal
+484,484_L3.jpg,PVC,PVC/PVC/None,plastic,<answer>plastic</answer>,

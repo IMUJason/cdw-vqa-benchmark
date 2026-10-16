@@ -1,0 +1,36 @@
+
+===== qwen3-vl-8b =====
+dataset           F1_presence          F2_extent       F3_dominance   F4_contamination
+codd             0.766 (1000)        0.474 (500)         0.639 (83)        0.838 (500)
+cdw_seg           0.644 (846)        0.325 (425)        0.465 (288)        0.867 (430)
+  F3_dominance @cdw_seg: acc=0.465 (n=288)
+    GT=fill_dirt       答=C
+    GT=concrete        答=C
+    GT=concrete        答=C
+    GT=steel           答=A
+    GT=steel           答=C
+    GT=steel           答=C
+
+===== glm-4.1v-9b =====
+dataset           F1_presence          F2_extent       F3_dominance   F4_contamination
+codd             0.779 (1000)        0.430 (500)         0.699 (83)        0.072 (500)
+cdw_seg           0.460 (846)        0.421 (425)        0.549 (288)        0.070 (430)
+  F3_dominance @cdw_seg: acc=0.549 (n=288)
+    GT=fill_dirt       答=<think>Got it, let's look at the image. 
+    GT=fill_dirt       答=<think>Got it, let's look at the image. 
+    GT=concrete        答=<think>Got it, let's look at the image. 
+    GT=steel           答=<think>Got it, let's look at the waste l
+    GT=hard_plastic    答=<think>Got it, let's look at the image. 
+    GT=hard_plastic    答=<think>Got it, let's look at the image. 
+
+===== qwen2.5-vl-7b =====
+dataset           F1_presence          F2_extent       F3_dominance   F4_contamination
+codd             0.744 (1000)        0.220 (500)         0.349 (83)        0.782 (500)
+cdw_seg           0.677 (846)        0.268 (425)        0.427 (288)        0.844 (430)
+  F3_dominance @cdw_seg: acc=0.427 (n=288)
+    GT=fill_dirt       答=D
+    GT=fill_dirt       答=C
+    GT=concrete        答=C
+    GT=concrete        答=B
+    GT=fabric          答=D
+    GT=hard_plastic    答=B

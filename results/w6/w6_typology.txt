@@ -1,0 +1,39 @@
+
+===== qwen3-vl-8b (pipes 正交档) =====
+  [material-Q]
+    L0: correct=0.500 wrong_mat=0.425 wrong_obj=0.000 **hijack=0.072** other=0.003
+    L1: correct=0.109 wrong_mat=0.672 wrong_obj=0.000 **hijack=0.204** other=0.014
+    L2: correct=0.210 wrong_mat=0.690 wrong_obj=0.000 **hijack=0.095** other=0.006
+    L3: correct=0.126 wrong_mat=0.615 wrong_obj=0.000 **hijack=0.241** other=0.017
+  [object-Q]
+    L0: correct=0.343 wrong_mat=0.454 wrong_obj=0.000 **hijack=0.131** other=0.071
+    L1: correct=0.094 wrong_mat=0.569 wrong_obj=0.000 **hijack=0.203** other=0.134
+    L2: correct=0.114 wrong_mat=0.460 wrong_obj=0.006 **hijack=0.314** other=0.106
+    L3: correct=0.206 wrong_mat=0.411 wrong_obj=0.003 **hijack=0.317** other=0.063
+  劫持样例(material-Q→日常物体词): L3:bone; L3:bone; L2:bone; L3:bone; L3:bone; L3:bone; L3:chalk; L1:bone
+
+===== glm-4.1v-9b (pipes 正交档) =====
+  [material-Q]
+    L0: correct=0.394 wrong_mat=0.532 wrong_obj=0.000 **hijack=0.057** other=0.017
+    L1: correct=0.112 wrong_mat=0.681 wrong_obj=0.000 **hijack=0.152** other=0.055
+    L2: correct=0.115 wrong_mat=0.759 wrong_obj=0.000 **hijack=0.112** other=0.014
+    L3: correct=0.066 wrong_mat=0.805 wrong_obj=0.000 **hijack=0.112** other=0.017
+  [object-Q]
+    L0: correct=0.246 wrong_mat=0.397 wrong_obj=0.006 **hijack=0.143** other=0.209
+    L1: correct=0.054 wrong_mat=0.094 wrong_obj=0.000 **hijack=0.217** other=0.634
+    L2: correct=0.037 wrong_mat=0.334 wrong_obj=0.011 **hijack=0.220** other=0.397
+    L3: correct=0.094 wrong_mat=0.166 wrong_obj=0.006 **hijack=0.257** other=0.477
+  劫持样例(material-Q→日常物体词): L3:bone; L3:bone; L3:bone; L0:bone; L1:bone; L2:bone; L3:bone; L1:bone
+
+===== qwen2.5-vl-7b (pipes 正交档) =====
+  [material-Q]
+    L0: correct=0.477 wrong_mat=0.385 wrong_obj=0.000 **hijack=0.138** other=0.000
+    L1: correct=0.141 wrong_mat=0.661 wrong_obj=0.000 **hijack=0.158** other=0.040
+    L2: correct=0.161 wrong_mat=0.764 wrong_obj=0.000 **hijack=0.066** other=0.009
+    L3: correct=0.239 wrong_mat=0.557 wrong_obj=0.000 **hijack=0.193** other=0.011
+  [object-Q]
+    L0: correct=0.120 wrong_mat=0.571 wrong_obj=0.000 **hijack=0.217** other=0.091
+    L1: correct=0.043 wrong_mat=0.320 wrong_obj=0.006 **hijack=0.337** other=0.294
+    L2: correct=0.031 wrong_mat=0.643 wrong_obj=0.009 **hijack=0.229** other=0.089
+    L3: correct=0.057 wrong_mat=0.289 wrong_obj=0.009 **hijack=0.374** other=0.271
+  劫持样例(material-Q→日常物体词): L2:bone; L3:bone; L2:bone; L3:bone; L1:bone; L2:bone; L0:bone; L3:bone
