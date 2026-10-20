@@ -61,7 +61,8 @@ def main():
     model.gradient_checkpointing_enable()
     model.config.use_cache = False
 
-    items = [json.loads(l) for l in open(DATA / "sft_train.jsonl", encoding="utf-8")]
+    items = [json.loads(l) for l in open(
+        os.environ.get("SFT_FILE", str(DATA / "sft_train.jsonl")), encoding="utf-8")]
     if args.smoke:
         items = items[:48]
 

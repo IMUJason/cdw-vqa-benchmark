@@ -10,8 +10,10 @@ Benchmark construction, evaluation, and adaptation code for
   2. `build_benchmark_v1.py` — scene suite (4,072 QA over 930 images)
   3. three-judge labelling: `prefill_pipes.py`, `prefill_pipes_glm.py`, `prefill_pipes_kimi.py`, `merge_judges.py`, `finalize_labels.py`, `round2_setup.py`, `finalize_pipes_labels.py`
   4. human labelling tools: `label_server.py`, `build_judge_views.py`, `make_judge_sheets.py`, `baseline_server.py`, `build_human_baseline.py`
-  5. evaluation: `run_w6_gate.py`, `w6_stats.py`, `w6_typology.py`, `run_scene_eval.py`, `scene_stats.py`, `run_api_eval.py`
-  6. adaptation: `build_sft_data.py`, `train_qlora.py`, `train_qlora_glm.py`, `eval_adapted.py`, `adapted_compare.py`
+  5. evaluation: `run_w6_gate.py`, `w6_stats.py`, `w6_typology.py`, `run_scene_eval.py`, `scene_stats.py`, `run_api_eval.py`, `api_policy.py` (unified delivery policy: success / end-to-end / conditional + delivery mask)
+  6. adaptation: `build_sft_data.py`, `train_qlora.py`, `train_qlora_glm.py`, `eval_adapted.py`, `adapted_compare.py`; ablation `build_sft_data_l0.py`, `eval_l0_ablation.py`; oracle control `run_oracle.py`; supervised baseline `train_seg_baseline.py`, `eval_seg_baseline.py`
+  7. two-level scoring and corrected gate: `fine_metrics.py` (coarse vs fine material, symmetric object aliases, corrected interaction with cluster bootstrap, McNemar)
+  8. human baseline v2 (balanced, fine-grained, blind): `build_human_baseline_v2.py`, `baseline_server_v2.py`, `human_baseline_v2_score.py`
 - `data/` — benchmark manifests and QA files (question lists, manifests, labelling CSVs).
 - `results/` — raw model responses and aggregated statistics for every number reported in the paper; the analysis scripts read only these files, so all reported statistics can be regenerated without a GPU.
 

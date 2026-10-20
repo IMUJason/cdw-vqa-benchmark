@@ -1,0 +1,186 @@
+======================================================================
+1. PIPES PER-ARM, two-level material scoring (all splits, n=348/arm-family)
+======================================================================
+
+-- zs_qwen3
+  L0 object          n=350 acc=0.343
+  L1 object          n=350 acc=0.094
+  L2 object          n=350 acc=0.114
+  L3 object          n=350 acc=0.206
+  L0 material fine   n=348 acc=0.017   coarse=0.500   stored(coarse+alias)=0.500
+  L1 material fine   n=348 acc=0.078   coarse=0.109   stored(coarse+alias)=0.109
+  L2 material fine   n=348 acc=0.080   coarse=0.210   stored(coarse+alias)=0.210
+  L3 material fine   n=348 acc=0.063   coarse=0.126   stored(coarse+alias)=0.126
+
+-- zs_qwen25
+  L0 object          n=350 acc=0.120
+  L1 object          n=350 acc=0.043
+  L2 object          n=350 acc=0.031
+  L3 object          n=350 acc=0.057
+  L0 material fine   n=348 acc=0.020   coarse=0.477   stored(coarse+alias)=0.477
+  L1 material fine   n=348 acc=0.083   coarse=0.141   stored(coarse+alias)=0.141
+  L2 material fine   n=348 acc=0.072   coarse=0.161   stored(coarse+alias)=0.161
+  L3 material fine   n=348 acc=0.080   coarse=0.239   stored(coarse+alias)=0.239
+
+-- zs_glm41
+  L0 object          n=350 acc=0.246
+  L1 object          n=350 acc=0.054
+  L2 object          n=350 acc=0.037
+  L3 object          n=350 acc=0.094
+  L0 material fine   n=348 acc=0.023   coarse=0.394   stored(coarse+alias)=0.394
+  L1 material fine   n=348 acc=0.075   coarse=0.112   stored(coarse+alias)=0.112
+  L2 material fine   n=348 acc=0.043   coarse=0.115   stored(coarse+alias)=0.115
+  L3 material fine   n=348 acc=0.046   coarse=0.066   stored(coarse+alias)=0.066
+
+-- ad_qwen3
+  L0 object          n=189 acc=0.487
+  L1 object          n=189 acc=0.862
+  L2 object          n=189 acc=0.841
+  L3 object          n=189 acc=0.926
+  L0 material fine   n=188 acc=0.378   coarse=0.729   stored(coarse+alias)=0.729
+  L1 material fine   n=188 acc=0.766   coarse=0.803   stored(coarse+alias)=0.803
+  L2 material fine   n=188 acc=0.771   coarse=0.809   stored(coarse+alias)=0.809
+  L3 material fine   n=188 acc=0.819   coarse=0.819   stored(coarse+alias)=0.819
+
+-- ad_qwen25
+  L0 object          n=189 acc=0.899
+  L1 object          n=189 acc=0.947
+  L2 object          n=189 acc=0.894
+  L3 object          n=189 acc=0.947
+  L0 material fine   n=188 acc=0.622   coarse=0.777   stored(coarse+alias)=0.777
+  L1 material fine   n=188 acc=0.840   coarse=0.862   stored(coarse+alias)=0.862
+  L2 material fine   n=188 acc=0.777   coarse=0.867   stored(coarse+alias)=0.867
+  L3 material fine   n=188 acc=0.894   coarse=0.899   stored(coarse+alias)=0.899
+
+-- oracle_qwen3
+  L0 object          n=189 acc=0.862
+  L0 material fine   n=188 acc=0.777   coarse=0.835   stored(coarse+alias)=0.835
+
+======================================================================
+1b. same, TEST split only (n=189/188)
+======================================================================
+
+-- zs_qwen3
+  L0 object   n=189 acc=0.265
+  L1 object   n=189 acc=0.090
+  L2 object   n=189 acc=0.153
+  L3 object   n=189 acc=0.185
+  L0 material n=188 fine=0.011 coarse=0.569
+  L1 material n=188 fine=0.090 coarse=0.133
+  L2 material n=188 fine=0.085 coarse=0.287
+  L3 material n=188 fine=0.064 coarse=0.112
+
+-- zs_qwen25
+  L0 object   n=189 acc=0.095
+  L1 object   n=189 acc=0.048
+  L2 object   n=189 acc=0.016
+  L3 object   n=189 acc=0.063
+  L0 material n=188 fine=0.000 coarse=0.596
+  L1 material n=188 fine=0.106 coarse=0.191
+  L2 material n=188 fine=0.085 coarse=0.176
+  L3 material n=188 fine=0.085 coarse=0.245
+
+-- zs_glm41
+  L0 object   n=189 acc=0.111
+  L1 object   n=189 acc=0.063
+  L2 object   n=189 acc=0.053
+  L3 object   n=189 acc=0.095
+  L0 material n=188 fine=0.011 coarse=0.415
+  L1 material n=188 fine=0.085 coarse=0.133
+  L2 material n=188 fine=0.043 coarse=0.133
+  L3 material n=188 fine=0.053 coarse=0.080
+
+-- ad_qwen3
+  L0 object   n=189 acc=0.487
+  L1 object   n=189 acc=0.862
+  L2 object   n=189 acc=0.841
+  L3 object   n=189 acc=0.926
+  L0 material n=188 fine=0.378 coarse=0.729
+  L1 material n=188 fine=0.766 coarse=0.803
+  L2 material n=188 fine=0.771 coarse=0.809
+  L3 material n=188 fine=0.819 coarse=0.819
+
+-- ad_qwen25
+  L0 object   n=189 acc=0.899
+  L1 object   n=189 acc=0.947
+  L2 object   n=189 acc=0.894
+  L3 object   n=189 acc=0.947
+  L0 material n=188 fine=0.622 coarse=0.777
+  L1 material n=188 fine=0.840 coarse=0.862
+  L2 material n=188 fine=0.777 coarse=0.867
+  L3 material n=188 fine=0.894 coarse=0.899
+
+======================================================================
+2. CORRECTED INTERACTION GATE (fine scorer, orthogonal pipes, all splits)
+   Delta = object - fine-material; interaction = Delta_L0 - Delta_L1
+======================================================================
+
+zs_qwen3:
+  L0: obj=0.345 mat_fine=0.017 Delta=+0.328
+  L1: obj=0.092 mat_fine=0.078 Delta=+0.014
+  L2: obj=0.115 mat_fine=0.080 Delta=+0.034
+  L3: obj=0.207 mat_fine=0.063 Delta=+0.144
+  interaction (L0-L1) = +0.313   [original stored scorer: see w6_gate_stats]
+
+zs_qwen25:
+  L0: obj=0.121 mat_fine=0.020 Delta=+0.101
+  L1: obj=0.043 mat_fine=0.083 Delta=-0.040
+  L2: obj=0.032 mat_fine=0.072 Delta=-0.040
+  L3: obj=0.057 mat_fine=0.080 Delta=-0.023
+  interaction (L0-L1) = +0.141   [original stored scorer: see w6_gate_stats]
+
+zs_glm41:
+  L0: obj=0.247 mat_fine=0.023 Delta=+0.224
+  L1: obj=0.055 mat_fine=0.075 Delta=-0.020
+  L2: obj=0.037 mat_fine=0.043 Delta=-0.006
+  L3: obj=0.095 mat_fine=0.046 Delta=+0.049
+  interaction (L0-L1) = +0.244   [original stored scorer: see w6_gate_stats]
+
+POOLED corrected interaction = +0.233 (pre-registered threshold >= +0.10)
+cluster bootstrap 95% CI (B=2000, cluster=instance): [+0.192, +0.272]
+
+======================================================================
+3. McNEMAR exact, zero-shot -> adapted (test split, paired by diag_id)
+======================================================================
+
+-- Qwen3-VL-8B
+  L0 instance_object   zs=0.265 ad=0.487 discordant 11->53 (worse->better) p=1.01e-07
+  L1 instance_object   zs=0.090 ad=0.862 discordant 0->146 (worse->better) p=2.24e-44
+  L2 instance_object   zs=0.153 ad=0.841 discordant 0->130 (worse->better) p=1.47e-39
+  L3 instance_object   zs=0.185 ad=0.926 discordant 0->140 (worse->better) p=1.43e-42
+  L0 instance_material zs=0.011 ad=0.378 discordant 1->70 (worse->better) p=6.10e-20
+  L1 instance_material zs=0.090 ad=0.766 discordant 7->134 (worse->better) p=1.43e-31
+  L2 instance_material zs=0.085 ad=0.771 discordant 3->132 (worse->better) p=1.88e-35
+  L3 instance_material zs=0.064 ad=0.819 discordant 2->144 (worse->better) p=2.41e-40
+
+-- Qwen2.5-VL-7B
+  L0 instance_object   zs=0.095 ad=0.899 discordant 0->152 (worse->better) p=3.50e-46
+  L1 instance_object   zs=0.048 ad=0.947 discordant 0->170 (worse->better) p=1.34e-51
+  L2 instance_object   zs=0.016 ad=0.894 discordant 0->166 (worse->better) p=2.14e-50
+  L3 instance_object   zs=0.063 ad=0.947 discordant 0->167 (worse->better) p=1.07e-50
+  L0 instance_material zs=0.000 ad=0.622 discordant 0->117 (worse->better) p=1.20e-35
+  L1 instance_material zs=0.106 ad=0.840 discordant 12->150 (worse->better) p=1.67e-31
+  L2 instance_material zs=0.085 ad=0.777 discordant 4->134 (worse->better) p=8.55e-35
+  L3 instance_material zs=0.085 ad=0.894 discordant 5->157 (worse->better) p=3.09e-40
+
+======================================================================
+4. ERROR COMPOSITION, material questions (from w6_typology.txt)
+   wrong-material share OF ERRORS = wrong_mat / (1 - correct)
+======================================================================
+  qwen3-vl-8b      L0: wrong_mat share of errors = 0.85 (hijack share 0.14)
+  qwen3-vl-8b      L1: wrong_mat share of errors = 0.75 (hijack share 0.23)
+  qwen3-vl-8b      L2: wrong_mat share of errors = 0.87 (hijack share 0.12)
+  qwen3-vl-8b      L3: wrong_mat share of errors = 0.70 (hijack share 0.28)
+  glm-4.1v-9b      L0: wrong_mat share of errors = 0.88 (hijack share 0.09)
+  glm-4.1v-9b      L1: wrong_mat share of errors = 0.77 (hijack share 0.17)
+  glm-4.1v-9b      L2: wrong_mat share of errors = 0.86 (hijack share 0.13)
+  glm-4.1v-9b      L3: wrong_mat share of errors = 0.86 (hijack share 0.12)
+  qwen2.5-vl-7b    L0: wrong_mat share of errors = 0.74 (hijack share 0.26)
+  qwen2.5-vl-7b    L1: wrong_mat share of errors = 0.77 (hijack share 0.18)
+  qwen2.5-vl-7b    L2: wrong_mat share of errors = 0.91 (hijack share 0.08)
+  qwen2.5-vl-7b    L3: wrong_mat share of errors = 0.73 (hijack share 0.25)
+
+======================================================================
+5. EMPIRICAL H(material | pipes) = 0.515 bits (PVC 0.885 / metal 0.115, n=348)
+   lexical tier: 'pipes' does not name its material (orthogonal);
+   empirical entropy is LOW because the class prior is imbalanced.
