@@ -86,13 +86,13 @@ def score_instance(r, level):
 def main():
     lines = []
     P = lines.append
-    mask = {}
+    mask = {name: {} for name in ["kimi", "glm"]}  # nested: uid spaces of the two models overlap
     for name in ["kimi", "glm"]:
         rows = [json.loads(l) for l in open(RES / f"api_{name}.jsonl", encoding="utf-8")]
         n = len(rows)
         deliv = [r for r in rows if delivered(r["raw"])]
         for r in rows:
-            mask[r["uid"]] = bool(delivered(r["raw"]))
+            mask[name][r["uid"]] = bool(delivered(r["raw"]))
         P("=" * 78)
         P(f"{name}: n={n} delivered={len(deliv)} success={len(deliv)/n:.3f} "
           f"non-delivery={n - len(deliv)} ({(n - len(deliv))/n:.1%})")
