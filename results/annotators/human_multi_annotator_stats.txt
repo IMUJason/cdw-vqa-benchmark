@@ -1,0 +1,13 @@
+Human multi-annotator reference on the balanced pipes suite (15 valid annotators >=190/200 items; 198 common)
+==================================================================================
+Annotators (15): the two authors (Jin Xin Cao; Shi Yang Li) and 13 graduate-student
+annotators at Inner Mongolia University (named in the paper acknowledgements).
+Protocol: blind, single arm view, forced three-way PVC/metal/other, per-annotator
+shuffled order, per-item timestamps + login log retained.
+
+per-annotator accuracy   : mean 0.618 +- 0.070 (range 0.510-0.742)
+pairwise Cohen's kappa   : mean 0.313 +- 0.174 (range -0.080-0.619; 105 pairs)
+Fleiss kappa             : 0.312
+majority-vote accuracy   : 0.733 (3 ties excluded)
+majority vote by arm     : L0 0.490 / L1 0.940 / L2 0.562 / L3 0.938
+individual mean by arm   : L1 0.723 +- 0.100 ; L0 0.447 +- 0.098

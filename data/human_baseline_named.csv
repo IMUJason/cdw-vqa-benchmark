@@ -1,0 +1,201 @@
+﻿uid,annotator,answer,ts
+inst|15|L0,Jin Xin Cao,塑料,1791851191
+inst|15|L1,Jin Xin Cao,塑料,1791851191
+inst|15|L2,Jin Xin Cao,塑料,1791851191
+inst|15|L3,Jin Xin Cao,塑料,1791851191
+inst|211|L0,Jin Xin Cao,塑料,1791851191
+inst|211|L1,Jin Xin Cao,塑料,1791851191
+inst|211|L2,Jin Xin Cao,塑料,1791851191
+inst|211|L3,Jin Xin Cao,塑料,1791851191
+inst|213|L0,Jin Xin Cao,塑料,1791851191
+inst|213|L1,Jin Xin Cao,塑料,1791851191
+inst|213|L2,Jin Xin Cao,塑料,1791851191
+inst|213|L3,Jin Xin Cao,塑料,1791851191
+inst|243|L0,Jin Xin Cao,塑料,1791851191
+inst|243|L1,Jin Xin Cao,塑料,1791851191
+inst|243|L2,Jin Xin Cao,塑料,1791851191
+inst|243|L3,Jin Xin Cao,塑料,1791851191
+inst|261|L0,Jin Xin Cao,塑料,1791851191
+inst|261|L1,Jin Xin Cao,塑料,1791851191
+inst|261|L2,Jin Xin Cao,塑料,1791851191
+inst|261|L3,Jin Xin Cao,塑料,1791851191
+inst|262|L0,Jin Xin Cao,塑料,1791851191
+inst|262|L1,Jin Xin Cao,塑料,1791851191
+inst|262|L2,Jin Xin Cao,塑料,1791851191
+inst|262|L3,Jin Xin Cao,塑料,1791851191
+inst|285|L0,Jin Xin Cao,塑料,1791851191
+inst|285|L1,Jin Xin Cao,塑料,1791851191
+inst|285|L2,Jin Xin Cao,塑料,1791851191
+inst|285|L3,Jin Xin Cao,塑料,1791851191
+inst|286|L0,Jin Xin Cao,塑料,1791851191
+inst|286|L1,Jin Xin Cao,塑料,1791851191
+inst|286|L2,Jin Xin Cao,塑料,1791851191
+inst|286|L3,Jin Xin Cao,塑料,1791851191
+inst|301|L0,Jin Xin Cao,塑料,1791851191
+inst|301|L1,Jin Xin Cao,塑料,1791851191
+inst|301|L2,Jin Xin Cao,塑料,1791851191
+inst|301|L3,Jin Xin Cao,塑料,1791851191
+inst|319|L0,Jin Xin Cao,塑料,1791851191
+inst|319|L1,Jin Xin Cao,塑料,1791851191
+inst|319|L2,Jin Xin Cao,塑料,1791851191
+inst|319|L3,Jin Xin Cao,塑料,1791851191
+inst|375|L0,Jin Xin Cao,塑料,1791851191
+inst|375|L1,Jin Xin Cao,塑料,1791851191
+inst|375|L2,Jin Xin Cao,塑料,1791851191
+inst|375|L3,Jin Xin Cao,塑料,1791851191
+inst|404|L0,Jin Xin Cao,塑料,1791851191
+inst|404|L1,Jin Xin Cao,塑料,1791851191
+inst|404|L2,Jin Xin Cao,塑料,1791851191
+inst|404|L3,Jin Xin Cao,塑料,1791851191
+inst|438|L0,Jin Xin Cao,泡沫塑料,1791851191
+inst|438|L1,Jin Xin Cao,塑料,1791851191
+inst|438|L2,Jin Xin Cao,塑料,1791851191
+inst|438|L3,Jin Xin Cao,塑料,1791851191
+inst|44|L0,Jin Xin Cao,塑料,1791851191
+inst|44|L1,Jin Xin Cao,塑料,1791851191
+inst|44|L2,Jin Xin Cao,塑料,1791851191
+inst|44|L3,Jin Xin Cao,塑料,1791851191
+inst|463|L0,Jin Xin Cao,塑料,1791851191
+inst|463|L1,Jin Xin Cao,塑料,1791851191
+inst|463|L2,Jin Xin Cao,塑料,1791851191
+inst|463|L3,Jin Xin Cao,塑料,1791851191
+inst|465|L0,Jin Xin Cao,塑料,1791851191
+inst|465|L1,Jin Xin Cao,塑料,1791851191
+inst|465|L2,Jin Xin Cao,塑料,1791851191
+inst|465|L3,Jin Xin Cao,塑料,1791851191
+inst|46|L0,Jin Xin Cao,泡沫塑料,1791851191
+inst|46|L1,Jin Xin Cao,塑料,1791851191
+inst|46|L2,Jin Xin Cao,塑料,1791851191
+inst|46|L3,Jin Xin Cao,塑料,1791851191
+inst|51|L0,Jin Xin Cao,塑料,1791851191
+inst|51|L1,Jin Xin Cao,塑料,1791851191
+inst|51|L2,Jin Xin Cao,塑料,1791851191
+inst|51|L3,Jin Xin Cao,塑料,1791851191
+inst|62|L0,Jin Xin Cao,塑料,1791851191
+inst|62|L1,Jin Xin Cao,塑料,1791851191
+inst|62|L2,Jin Xin Cao,塑料,1791851191
+inst|62|L3,Jin Xin Cao,塑料,1791851191
+inst|94|L0,Jin Xin Cao,塑料,1791851191
+inst|94|L1,Jin Xin Cao,塑料,1791851191
+inst|94|L2,Jin Xin Cao,塑料,1791851191
+inst|94|L3,Jin Xin Cao,塑料,1791851191
+scene|cdw_seg|2022_0003|F2_extent|How many distinct waste materi,Jin Xin Cao,C,1791851191
+scene|cdw_seg|2022_0007|F4_contamination|Does this waste load contain n,Jin Xin Cao,Yes,1791851191
+scene|cdw_seg|2022_0013|F4_contamination|Does this waste load contain n,Jin Xin Cao,Yes,1791851191
+scene|cdw_seg|2022_0016|F4_contamination|Does this waste load contain n,Jin Xin Cao,Yes,1791851191
+scene|cdw_seg|2022_0018|F2_extent|How many distinct waste materi,Jin Xin Cao,B,1791851191
+scene|cdw_seg|2022_0022|F3_dominance|Which material dominates this ,Jin Xin Cao,A,1791851191
+scene|cdw_seg|2022_0026|F1_presence|Is there any soft plastic visi,Jin Xin Cao,Yes,1791851191
+scene|cdw_seg|2022_0033|F3_dominance|Which material dominates this ,Jin Xin Cao,A,1791851191
+scene|cdw_seg|2022_0037|F2_extent|How many distinct waste materi,Jin Xin Cao,A,1791851191
+scene|cdw_seg|2022_0039|F1_presence|Is there any hard plastic visi,Jin Xin Cao,Yes,1791851191
+scene|cdw_seg|2022_0046|F2_extent|How many distinct waste materi,Jin Xin Cao,D,1791851191
+scene|cdw_seg|2022_0049|F2_extent|How many distinct waste materi,Jin Xin Cao,B,1791851191
+scene|cdw_seg|2022_0059|F1_presence|Is there any plasterboard visi,Jin Xin Cao,No,1791851191
+scene|cdw_seg|2022_0062|F3_dominance|Which material dominates this ,Jin Xin Cao,C,1791851191
+scene|cdw_seg|2022_0065|F2_extent|How many distinct waste materi,Jin Xin Cao,B,1791851191
+scene|cdw_seg|2022_0073|F4_contamination|Does this waste load contain n,Jin Xin Cao,Yes,1791851191
+scene|cdw_seg|2022_0079|F4_contamination|Does this waste load contain n,Jin Xin Cao,Yes,1791851191
+scene|cdw_seg|2022_0088|F1_presence|Is there any wood visible in t,Jin Xin Cao,Yes,1791851191
+scene|cdw_seg|2022_0098|F3_dominance|Which material dominates this ,Jin Xin Cao,C,1791851191
+scene|cdw_seg|2022_0106|F3_dominance|Which material dominates this ,Jin Xin Cao,A,1791851191
+scene|cdw_seg|2022_0111|F3_dominance|Which material dominates this ,Jin Xin Cao,B,1791851191
+scene|cdw_seg|2022_0114|F4_contamination|Does this waste load contain n,Jin Xin Cao,Yes,1791851191
+scene|cdw_seg|2022_0120|F1_presence|Is there any fill dirt visible,Jin Xin Cao,No,1791851191
+scene|cdw_seg|2022_0122|F1_presence|Is there any hard plastic visi,Jin Xin Cao,No,1791851191
+scene|cdw_seg|2022_0127|F3_dominance|Which material dominates this ,Jin Xin Cao,C,1791851191
+scene|cdw_seg|2022_0132|F4_contamination|Does this waste load contain n,Jin Xin Cao,Yes,1791851191
+scene|cdw_seg|2022_0136|F4_contamination|Does this waste load contain n,Jin Xin Cao,Yes,1791851191
+scene|cdw_seg|2022_0151|F2_extent|How many distinct waste materi,Jin Xin Cao,B,1791851191
+scene|cdw_seg|2022_0168|F1_presence|Is there any cardboard visible,Jin Xin Cao,Yes,1791851191
+scene|cdw_seg|2022_0177|F2_extent|How many distinct waste materi,Jin Xin Cao,C,1791851191
+scene|cdw_seg|2022_0205|F2_extent|How many distinct waste materi,Jin Xin Cao,B,1791851191
+scene|cdw_seg|2022_0208|F1_presence|Is there any hard plastic visi,Jin Xin Cao,No,1791851191
+scene|cdw_seg|2022_0210|F3_dominance|Which material dominates this ,Jin Xin Cao,B,1791851191
+scene|cdw_seg|2022_0218|F4_contamination|Does this waste load contain n,Jin Xin Cao,No,1791851191
+scene|cdw_seg|2022_0230|F1_presence|Is there any fill dirt visible,Jin Xin Cao,No,1791851191
+scene|cdw_seg|2022_0233|F4_contamination|Does this waste load contain n,Jin Xin Cao,Yes,1791851191
+scene|cdw_seg|2022_0235|F3_dominance|Which material dominates this ,Jin Xin Cao,A,1791851191
+scene|cdw_seg|2022_0237|F4_contamination|Does this waste load contain n,Jin Xin Cao,Yes,1791851191
+scene|cdw_seg|2022_0239|F2_extent|How many distinct waste materi,Jin Xin Cao,D,1791851191
+scene|cdw_seg|2022_0242|F4_contamination|Does this waste load contain n,Jin Xin Cao,Yes,1791851191
+scene|cdw_seg|2022_0257|F3_dominance|Which material dominates this ,Jin Xin Cao,A,1791851191
+scene|cdw_seg|2022_0286|F1_presence|Is there any fabric visible in,Jin Xin Cao,No,1791851191
+scene|cdw_seg|2022_0286|F2_extent|How many distinct waste materi,Jin Xin Cao,D,1791851191
+scene|cdw_seg|2022_0291|F1_presence|Is there any cardboard visible,Jin Xin Cao,No,1791851191
+scene|cdw_seg|2022_0293|F1_presence|Is there any wood visible in t,Jin Xin Cao,No,1791851191
+scene|cdw_seg|2022_0295|F3_dominance|Which material dominates this ,Jin Xin Cao,A,1791851191
+scene|cdw_seg|2022_0297|F4_contamination|Does this waste load contain n,Jin Xin Cao,Yes,1791851191
+scene|cdw_seg|2022_0314|F3_dominance|Which material dominates this ,Jin Xin Cao,D,1791851191
+scene|cdw_seg|2022_0317|F1_presence|Is there any cardboard visible,Jin Xin Cao,Yes,1791851191
+scene|cdw_seg|2022_0318|F2_extent|How many distinct waste materi,Jin Xin Cao,A,1791851191
+scene|cdw_seg|2022_0342|F1_presence|Is there any concrete visible ,Jin Xin Cao,No,1791851191
+scene|cdw_seg|2022_0355|F3_dominance|Which material dominates this ,Jin Xin Cao,D,1791851191
+scene|cdw_seg|2022_0358|F3_dominance|Which material dominates this ,Jin Xin Cao,C,1791851191
+scene|cdw_seg|2022_0365|F2_extent|How many distinct waste materi,Jin Xin Cao,A,1791851191
+scene|cdw_seg|2022_0381|F2_extent|How many distinct waste materi,Jin Xin Cao,A,1791851191
+scene|cdw_seg|2022_0383|F4_contamination|Does this waste load contain n,Jin Xin Cao,Yes,1791851191
+scene|cdw_seg|2022_0384|F1_presence|Is there any concrete visible ,Jin Xin Cao,No,1791851191
+scene|cdw_seg|2022_0384|F2_extent|How many distinct waste materi,Jin Xin Cao,A,1791851191
+scene|cdw_seg|2022_0400|F3_dominance|Which material dominates this ,Jin Xin Cao,A,1791851191
+scene|cdw_seg|2022_0418|F4_contamination|Does this waste load contain n,Jin Xin Cao,Yes,1791851191
+scene|codd|104|F3_dominance|Which material dominates this ,Jin Xin Cao,C,1791851191
+scene|codd|111|F3_dominance|Which material dominates this ,Jin Xin Cao,A,1791851191
+scene|codd|137|F3_dominance|Which material dominates this ,Jin Xin Cao,A,1791851191
+scene|codd|14|F3_dominance|Which material dominates this ,Jin Xin Cao,A,1791851191
+scene|codd|201|F3_dominance|Which material dominates this ,Jin Xin Cao,C,1791851191
+scene|codd|209|F4_contamination|Does this waste load contain n,Jin Xin Cao,No,1791851191
+scene|codd|251|F3_dominance|Which material dominates this ,Jin Xin Cao,A,1791851191
+scene|codd|257|F3_dominance|Which material dominates this ,Jin Xin Cao,B,1791851191
+scene|codd|261|F4_contamination|Does this waste load contain n,Jin Xin Cao,No,1791851191
+scene|codd|266|F4_contamination|Does this waste load contain n,Jin Xin Cao,Yes,1791851191
+scene|codd|281|F1_presence|Is there any brick visible in ,Jin Xin Cao,Yes,1791851191
+scene|codd|288|F4_contamination|Does this waste load contain n,Jin Xin Cao,No,1791851191
+scene|codd|2935|F4_contamination|Does this waste load contain n,Jin Xin Cao,Yes,1791851191
+scene|codd|2959|F1_presence|Is there any wood visible in t,Jin Xin Cao,Yes,1791851191
+scene|codd|2959|F3_dominance|Which material dominates this ,Jin Xin Cao,A,1791851191
+scene|codd|2962|F3_dominance|Which material dominates this ,Jin Xin Cao,A,1791851191
+scene|codd|2998|F2_extent|How many distinct waste materi,Jin Xin Cao,C,1791851191
+scene|codd|322|F3_dominance|Which material dominates this ,Jin Xin Cao,A,1791851191
+scene|codd|327|F3_dominance|Which material dominates this ,Jin Xin Cao,A,1791851191
+scene|codd|36|F3_dominance|Which material dominates this ,Jin Xin Cao,A,1791851191
+scene|codd|394|F1_presence|Is there any tile visible in t,Jin Xin Cao,Yes,1791851191
+scene|codd|42|F3_dominance|Which material dominates this ,Jin Xin Cao,A,1791851191
+scene|codd|43|F2_extent|How many distinct waste materi,Jin Xin Cao,C,1791851191
+scene|codd|451|F4_contamination|Does this waste load contain n,Jin Xin Cao,No,1791851191
+scene|codd|454|F1_presence|Is there any concrete visible ,Jin Xin Cao,Yes,1791851191
+scene|codd|45|F3_dominance|Which material dominates this ,Jin Xin Cao,B,1791851191
+scene|codd|494|F1_presence|Is there any brick visible in ,Jin Xin Cao,Yes,1791851191
+scene|codd|498|F3_dominance|Which material dominates this ,Jin Xin Cao,A,1791851191
+scene|codd|foam-2767|F2_extent|How many distinct waste materi,Jin Xin Cao,A,1791851191
+scene|codd|foam-2814|F1_presence|Is there any general w visible,Jin Xin Cao,Yes,1791851191
+scene|codd|gen-1027|F1_presence|Is there any gypsum board visi,Jin Xin Cao,No,1791851191
+scene|codd|gen-1036|F1_presence|Is there any general w visible,Jin Xin Cao,Yes,1791851191
+scene|codd|gen-735|F2_extent|How many distinct waste materi,Jin Xin Cao,B,1791851191
+scene|codd|gen-990|F4_contamination|Does this waste load contain n,Jin Xin Cao,Yes,1791851191
+scene|codd|other-1954|F2_extent|How many distinct waste materi,Jin Xin Cao,B,1791851191
+scene|codd|other-2035|F4_contamination|Does this waste load contain n,Jin Xin Cao,No,1791851191
+scene|codd|other-2038|F1_presence|Is there any wood visible in t,Jin Xin Cao,No,1791851191
+scene|codd|other-2052|F2_extent|How many distinct waste materi,Jin Xin Cao,D,1791851191
+scene|codd|other-2067|F2_extent|How many distinct waste materi,Jin Xin Cao,D,1791851191
+scene|codd|other-2102|F2_extent|How many distinct waste materi,Jin Xin Cao,B,1791851191
+scene|codd|other-2198|F2_extent|How many distinct waste materi,Jin Xin Cao,A,1791851191
+scene|codd|other-2260|F2_extent|How many distinct waste materi,Jin Xin Cao,A,1791851191
+scene|codd|p-2621|F2_extent|How many distinct waste materi,Jin Xin Cao,A,1791851191
+scene|codd|p-2693|F1_presence|Is there any gypsum board visi,Jin Xin Cao,Yes,1791851191
+scene|codd|plastic-1343|F2_extent|How many distinct waste materi,Jin Xin Cao,A,1791851191
+scene|codd|plastic-1499|F1_presence|Is there any pipes visible in ,Jin Xin Cao,Yes,1791851191
+scene|codd|s-1658|F4_contamination|Does this waste load contain n,Jin Xin Cao,No,1791851191
+scene|codd|s-1668|F2_extent|How many distinct waste materi,Jin Xin Cao,D,1791851191
+scene|codd|s-1744|F2_extent|How many distinct waste materi,Jin Xin Cao,A,1791851191
+scene|codd|w-2318|F4_contamination|Does this waste load contain n,Jin Xin Cao,Yes,1791851191
+scene|codd|w-2381|F1_presence|Is there any wood visible in t,Jin Xin Cao,Yes,1791851191
+scene|codd|w-2433|F4_contamination|Does this waste load contain n,Jin Xin Cao,Yes,1791851191
+scene|codd|w-2441|F1_presence|Is there any gypsum board visi,Jin Xin Cao,Yes,1791851191
+scene|codd|w-2455|F4_contamination|Does this waste load contain n,Jin Xin Cao,Yes,1791851191
+scene|codd|w-2467|F4_contamination|Does this waste load contain n,Jin Xin Cao,Yes,1791851191
+scene|codd|w-2474|F2_extent|How many distinct waste materi,Jin Xin Cao,C,1791851191
+scene|codd|w-2575|F1_presence|Is there any wood visible in t,Jin Xin Cao,No,1791851191
+scene|codd|w-368|F1_presence|Is there any wood visible in t,Jin Xin Cao,Yes,1791851191
+scene|codd|w-662|F4_contamination|Does this waste load contain n,Jin Xin Cao,Yes,1791851191
+scene|codd|w-713|F4_contamination|Does this waste load contain n,Jin Xin Cao,No,1791851191

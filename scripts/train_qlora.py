@@ -41,6 +41,12 @@ def main():
     ap.add_argument("--smoke", action="store_true")
     args = ap.parse_args()
 
+    import random as _r
+    _seed = int(os.environ.get('SEED', '0'))
+    if _seed:
+        _r.seed(_seed)
+        import torch as _t
+        _t.manual_seed(_seed)
     import torch
     from torch.utils.data import DataLoader, Dataset
     from transformers import (AutoModelForImageTextToText, AutoProcessor,
