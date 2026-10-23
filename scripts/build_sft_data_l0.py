@@ -1,6 +1,6 @@
 """L0-only ablation SFT set: scene train + instance train restricted to arm L0.
 
-Motivation (P0-4 of the 2026-10-19 editorial review): the original SFT set
+Motivation: the original SFT set
 includes all four arms, so the L1/L2/L3 test gains are confounded with having
 seen the rendering transformations (mean-fill inpaint / blur / crop) during
 training. This ablation trains on L0 instance views only and is evaluated on

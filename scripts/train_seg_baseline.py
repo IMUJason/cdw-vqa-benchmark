@@ -1,7 +1,7 @@
 """Trainable segmentation baseline: DeepLabV3-ResNet50 on the CODD train split.
 
 Purpose (review P1-4.4): the benchmark's ground truth comes from segmentation
-annotations, so a reviewer can ask "why MLLMs at all?" This baseline trains a
+annotations, so a natural question is whether MLLMs are needed at all. This baseline trains a
 standard supervised segmenter on the SAME CODD train images the MLLM SFT uses
 and is evaluated on the same scene questions (eval_seg_baseline.py): in-domain
 CODD test + zero-shot cross-domain CDW-Seg.
