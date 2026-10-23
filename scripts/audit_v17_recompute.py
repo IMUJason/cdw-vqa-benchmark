@@ -1,4 +1,4 @@
-"""Independent recomputation audit of the v1.6 manuscript (2026-10-22).
+"""Independent recomputation of all manuscript numbers from released data.
 
 Does NOT import fine_metrics.py / api_policy.py: the scoring rules are
 re-implemented from the manuscript prose, so a disagreement with the released
@@ -222,7 +222,7 @@ ZS_FILES = [
 ]
 ZS_OBJ = {  # 350-denominator values (all pipes object items incl. the 2
     # 'other' pipes), matching fig.4, Table 4 rows, and stored 'correct';
-    # unified in v1.6.1 from a stray 348-paired variant (0.345/0.092/...)
+    # object-question denominators are n=350 (all pipes score on object questions)
     "q3": (0.343, 0.094, 0.114, 0.206),
     "g": (0.246, 0.054, 0.037, 0.094),
     "q25": (0.120, 0.043, 0.031, 0.057),
