@@ -1,7 +1,7 @@
 """Adapted-model evaluation: base+LoRA adapter on TEST splits (scene+instance).
 Baseline numbers come from existing zero-shot responses (scene_eval/w6).
 Usage: python scripts/eval_adapted.py qwen3vl"""
-import sys, json, re, time
+import sys, os, json, re, time
 from pathlib import Path
 
 BASE = Path(__file__).resolve().parents[1]
@@ -19,6 +19,9 @@ CONFIGS = {
     "qwen3vl": dict(base=r"models/qwen3-vl-8b-instruct",
                     adapter=r"models/adapters/qwen3vl-cdw-lora-r16",
                     max_tokens=64),
+    "qwen3vl_seed2": dict(base=r"models/qwen3-vl-8b-instruct",
+                          adapter=r"models/adapters/qwen3vl-cdw-lora-r16-seed2",
+                          max_tokens=64),
     "glm41v": dict(base=r"models/glm-4.1v-9b-thinking",
                    adapter=r"models/adapters/glm41v-cdw-lora-r16",
                    max_tokens=1024),
@@ -65,7 +68,7 @@ def main():
             and it["split"] == "test"]
     print(f"scene test: {len(scene)}, instance test: {len(inst)}")
 
-    resp_path = OUT / f"adapted_{key}.jsonl"
+    resp_path = OUT / (os.environ.get("OUT_NAME", f"adapted_{key}") + ".jsonl")
     done = set()
     if resp_path.exists():
         for l in open(resp_path, encoding="utf-8"):
