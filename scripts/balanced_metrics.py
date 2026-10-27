@@ -56,9 +56,9 @@ for mk, fp in [("zs_qwen3", BASE / "results/w6/responses_qwen3-vl-8b.jsonl"),
                ("zs_glm41", BASE / "results/w6/responses_glm-4.1v-9b.jsonl")]:
     report(mk, load(fp))
 for mk in ["kimi", "glm"]:
-    recs = [r for r in load(BASE / f"results/api_eval/api_{mk}.jsonl")
+    recs = [r for r in load(BASE / f"results/api_eval/api_{mk}_v2.jsonl")
             if "diag_id" in r and not str(r["raw"]).startswith("ERROR")]
     report(f"api_{mk}", recs)
-for mk, fp in [("ad_qwen3", BASE / "results/adapted/adapted_qwen3vl.jsonl"),
-               ("ad_qwen25", BASE / "results/adapted/adapted_qwen25vl.jsonl")]:
+for mk, fp in [("ad_qwen3", BASE / "results/adapted/adapted_qwen3vl_v2.jsonl"),
+               ("ad_qwen25", BASE / "results/adapted/adapted_qwen25vl_v2.jsonl")]:
     report(mk, [r for r in load(fp) if "diag_id" in r])

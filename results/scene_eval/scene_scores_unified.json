@@ -1,0 +1,592 @@
+{
+ "qwen3-vl": {
+  "all": {
+   "F1_presence|codd": {
+    "n": 1000,
+    "unified": 0.766,
+    "first": 0.766,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   },
+   "F1_presence|cdw_seg": {
+    "n": 846,
+    "unified": 0.6442080378250591,
+    "first": 0.6442080378250591,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   },
+   "F2_extent|codd": {
+    "n": 500,
+    "unified": 0.488,
+    "first": 0.488,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   },
+   "F2_extent|cdw_seg": {
+    "n": 425,
+    "unified": 0.3458823529411765,
+    "first": 0.3458823529411765,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   },
+   "F3_dominance|codd": {
+    "n": 83,
+    "unified": 0.7108433734939759,
+    "first": 0.7108433734939759,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   },
+   "F3_dominance|cdw_seg": {
+    "n": 288,
+    "unified": 0.46875,
+    "first": 0.46875,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   },
+   "F4_contamination|codd": {
+    "n": 500,
+    "unified": 0.838,
+    "first": 0.838,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   },
+   "F4_contamination|cdw_seg": {
+    "n": 430,
+    "unified": 0.8674418604651163,
+    "first": 0.8674418604651163,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   }
+  },
+  "test": {
+   "F1_presence|codd": {
+    "n": 190,
+    "unified": 0.7631578947368421,
+    "first": 0.7631578947368421,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   },
+   "F1_presence|cdw_seg": {
+    "n": 84,
+    "unified": 0.6428571428571429,
+    "first": 0.6428571428571429,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   },
+   "F2_extent|codd": {
+    "n": 94,
+    "unified": 0.4787234042553192,
+    "first": 0.4787234042553192,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   },
+   "F2_extent|cdw_seg": {
+    "n": 42,
+    "unified": 0.38095238095238093,
+    "first": 0.38095238095238093,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   },
+   "F3_dominance|codd": {
+    "n": 16,
+    "unified": 0.5625,
+    "first": 0.5625,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   },
+   "F3_dominance|cdw_seg": {
+    "n": 29,
+    "unified": 0.6206896551724138,
+    "first": 0.6206896551724138,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   },
+   "F4_contamination|codd": {
+    "n": 95,
+    "unified": 0.8842105263157894,
+    "first": 0.8842105263157894,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   },
+   "F4_contamination|cdw_seg": {
+    "n": 43,
+    "unified": 0.9069767441860465,
+    "first": 0.9069767441860465,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   }
+  }
+ },
+ "qwen2.5-vl": {
+  "all": {
+   "F1_presence|codd": {
+    "n": 1000,
+    "unified": 0.744,
+    "first": 0.744,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   },
+   "F1_presence|cdw_seg": {
+    "n": 846,
+    "unified": 0.6773049645390071,
+    "first": 0.6773049645390071,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   },
+   "F2_extent|codd": {
+    "n": 500,
+    "unified": 0.23,
+    "first": 0.23,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   },
+   "F2_extent|cdw_seg": {
+    "n": 425,
+    "unified": 0.30117647058823527,
+    "first": 0.30117647058823527,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   },
+   "F3_dominance|codd": {
+    "n": 83,
+    "unified": 0.4819277108433735,
+    "first": 0.4819277108433735,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   },
+   "F3_dominance|cdw_seg": {
+    "n": 288,
+    "unified": 0.4409722222222222,
+    "first": 0.4409722222222222,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   },
+   "F4_contamination|codd": {
+    "n": 500,
+    "unified": 0.782,
+    "first": 0.782,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   },
+   "F4_contamination|cdw_seg": {
+    "n": 430,
+    "unified": 0.8441860465116279,
+    "first": 0.8441860465116279,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   }
+  },
+  "test": {
+   "F1_presence|codd": {
+    "n": 190,
+    "unified": 0.7684210526315789,
+    "first": 0.7684210526315789,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   },
+   "F1_presence|cdw_seg": {
+    "n": 84,
+    "unified": 0.6785714285714286,
+    "first": 0.6785714285714286,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   },
+   "F2_extent|codd": {
+    "n": 94,
+    "unified": 0.23404255319148937,
+    "first": 0.23404255319148937,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   },
+   "F2_extent|cdw_seg": {
+    "n": 42,
+    "unified": 0.35714285714285715,
+    "first": 0.35714285714285715,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   },
+   "F3_dominance|codd": {
+    "n": 16,
+    "unified": 0.5625,
+    "first": 0.5625,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   },
+   "F3_dominance|cdw_seg": {
+    "n": 29,
+    "unified": 0.5862068965517241,
+    "first": 0.5862068965517241,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   },
+   "F4_contamination|codd": {
+    "n": 95,
+    "unified": 0.8526315789473684,
+    "first": 0.8526315789473684,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   },
+   "F4_contamination|cdw_seg": {
+    "n": 43,
+    "unified": 0.8837209302325582,
+    "first": 0.8837209302325582,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   }
+  }
+ },
+ "glm-4.1v": {
+  "all": {
+   "F1_presence|codd": {
+    "n": 1000,
+    "unified": 0.795,
+    "first": 0.779,
+    "no_verdict": 0.003,
+    "box_share": 0.982
+   },
+   "F1_presence|cdw_seg": {
+    "n": 846,
+    "unified": 0.6867612293144209,
+    "first": 0.4598108747044917,
+    "no_verdict": 0.004728132387706856,
+    "box_share": 0.9905437352245863
+   },
+   "F2_extent|codd": {
+    "n": 500,
+    "unified": 0.426,
+    "first": 0.206,
+    "no_verdict": 0.05,
+    "box_share": 0.95
+   },
+   "F2_extent|cdw_seg": {
+    "n": 425,
+    "unified": 0.37176470588235294,
+    "first": 0.03529411764705882,
+    "no_verdict": 0.14588235294117646,
+    "box_share": 0.8541176470588235
+   },
+   "F3_dominance|codd": {
+    "n": 83,
+    "unified": 0.6746987951807228,
+    "first": 0.04819277108433735,
+    "no_verdict": 0.012048192771084338,
+    "box_share": 0.9879518072289156
+   },
+   "F3_dominance|cdw_seg": {
+    "n": 288,
+    "unified": 0.4340277777777778,
+    "first": 0.08680555555555555,
+    "no_verdict": 0.06944444444444445,
+    "box_share": 0.9305555555555556
+   },
+   "F4_contamination|codd": {
+    "n": 500,
+    "unified": 0.87,
+    "first": 0.072,
+    "no_verdict": 0.002,
+    "box_share": 0.994
+   },
+   "F4_contamination|cdw_seg": {
+    "n": 430,
+    "unified": 0.8744186046511628,
+    "first": 0.06976744186046512,
+    "no_verdict": 0.0069767441860465115,
+    "box_share": 0.9930232558139535
+   }
+  },
+  "test": {
+   "F1_presence|codd": {
+    "n": 190,
+    "unified": 0.7947368421052632,
+    "first": 0.7842105263157895,
+    "no_verdict": 0.0,
+    "box_share": 0.9947368421052631
+   },
+   "F1_presence|cdw_seg": {
+    "n": 84,
+    "unified": 0.7976190476190477,
+    "first": 0.5476190476190477,
+    "no_verdict": 0.011904761904761904,
+    "box_share": 0.9761904761904762
+   },
+   "F2_extent|codd": {
+    "n": 95,
+    "unified": 0.45263157894736844,
+    "first": 0.24210526315789474,
+    "no_verdict": 0.042105263157894736,
+    "box_share": 0.9578947368421052
+   },
+   "F2_extent|cdw_seg": {
+    "n": 42,
+    "unified": 0.3333333333333333,
+    "first": 0.023809523809523808,
+    "no_verdict": 0.19047619047619047,
+    "box_share": 0.8095238095238095
+   },
+   "F3_dominance|codd": {
+    "n": 17,
+    "unified": 0.7058823529411765,
+    "first": 0.058823529411764705,
+    "no_verdict": 0.058823529411764705,
+    "box_share": 0.9411764705882353
+   },
+   "F3_dominance|cdw_seg": {
+    "n": 29,
+    "unified": 0.5172413793103449,
+    "first": 0.10344827586206896,
+    "no_verdict": 0.06896551724137931,
+    "box_share": 0.9310344827586207
+   },
+   "F4_contamination|codd": {
+    "n": 95,
+    "unified": 0.9052631578947369,
+    "first": 0.021052631578947368,
+    "no_verdict": 0.010526315789473684,
+    "box_share": 0.9894736842105263
+   },
+   "F4_contamination|cdw_seg": {
+    "n": 43,
+    "unified": 0.8837209302325582,
+    "first": 0.09302325581395349,
+    "no_verdict": 0.0,
+    "box_share": 1.0
+   }
+  }
+ },
+ "kimi-k3": {
+  "all": {
+   "F1_presence|codd": {
+    "n": 999,
+    "unified": 0.8438438438438438,
+    "first": 0.8438438438438438,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   },
+   "F1_presence|cdw_seg": {
+    "n": 846,
+    "unified": 0.6997635933806147,
+    "first": 0.6997635933806147,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   },
+   "F2_extent|codd": {
+    "n": 500,
+    "unified": 0.7,
+    "first": 0.7,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   },
+   "F2_extent|cdw_seg": {
+    "n": 425,
+    "unified": 0.45647058823529413,
+    "first": 0.45647058823529413,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   },
+   "F3_dominance|codd": {
+    "n": 83,
+    "unified": 0.5421686746987951,
+    "first": 0.5421686746987951,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   },
+   "F3_dominance|cdw_seg": {
+    "n": 288,
+    "unified": 0.5173611111111112,
+    "first": 0.5173611111111112,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   },
+   "F4_contamination|codd": {
+    "n": 499,
+    "unified": 0.8577154308617234,
+    "first": 0.8577154308617234,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   },
+   "F4_contamination|cdw_seg": {
+    "n": 430,
+    "unified": 0.8837209302325582,
+    "first": 0.8837209302325582,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   }
+  },
+  "test": {
+   "F1_presence|codd": {
+    "n": 190,
+    "unified": 0.8736842105263158,
+    "first": 0.8736842105263158,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   },
+   "F1_presence|cdw_seg": {
+    "n": 84,
+    "unified": 0.7619047619047619,
+    "first": 0.7619047619047619,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   },
+   "F2_extent|codd": {
+    "n": 95,
+    "unified": 0.6842105263157895,
+    "first": 0.6842105263157895,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   },
+   "F2_extent|cdw_seg": {
+    "n": 42,
+    "unified": 0.5714285714285714,
+    "first": 0.5714285714285714,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   },
+   "F3_dominance|codd": {
+    "n": 17,
+    "unified": 0.47058823529411764,
+    "first": 0.47058823529411764,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   },
+   "F3_dominance|cdw_seg": {
+    "n": 29,
+    "unified": 0.6551724137931034,
+    "first": 0.6551724137931034,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   },
+   "F4_contamination|codd": {
+    "n": 95,
+    "unified": 0.8736842105263158,
+    "first": 0.8736842105263158,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   },
+   "F4_contamination|cdw_seg": {
+    "n": 43,
+    "unified": 0.9069767441860465,
+    "first": 0.9069767441860465,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   }
+  }
+ },
+ "glm-5.3": {
+  "all": {
+   "F1_presence|codd": {
+    "n": 1000,
+    "unified": 0.419,
+    "first": 0.419,
+    "no_verdict": 0.073,
+    "box_share": 0.0
+   },
+   "F1_presence|cdw_seg": {
+    "n": 846,
+    "unified": 0.5,
+    "first": 0.5,
+    "no_verdict": 0.07565011820330969,
+    "box_share": 0.0
+   },
+   "F2_extent|codd": {
+    "n": 500,
+    "unified": 0.394,
+    "first": 0.394,
+    "no_verdict": 0.048,
+    "box_share": 0.0
+   },
+   "F2_extent|cdw_seg": {
+    "n": 425,
+    "unified": 0.3388235294117647,
+    "first": 0.3388235294117647,
+    "no_verdict": 0.0611764705882353,
+    "box_share": 0.0
+   },
+   "F3_dominance|codd": {
+    "n": 83,
+    "unified": 0.26506024096385544,
+    "first": 0.26506024096385544,
+    "no_verdict": 0.07228915662650602,
+    "box_share": 0.0
+   },
+   "F3_dominance|cdw_seg": {
+    "n": 288,
+    "unified": 0.2986111111111111,
+    "first": 0.2986111111111111,
+    "no_verdict": 0.09375,
+    "box_share": 0.0
+   },
+   "F4_contamination|codd": {
+    "n": 500,
+    "unified": 0.282,
+    "first": 0.282,
+    "no_verdict": 0.29,
+    "box_share": 0.0
+   },
+   "F4_contamination|cdw_seg": {
+    "n": 430,
+    "unified": 0.19767441860465115,
+    "first": 0.19767441860465115,
+    "no_verdict": 0.29767441860465116,
+    "box_share": 0.0
+   }
+  },
+  "test": {
+   "F1_presence|codd": {
+    "n": 190,
+    "unified": 0.38421052631578945,
+    "first": 0.38421052631578945,
+    "no_verdict": 0.08947368421052632,
+    "box_share": 0.0
+   },
+   "F1_presence|cdw_seg": {
+    "n": 84,
+    "unified": 0.6071428571428571,
+    "first": 0.6071428571428571,
+    "no_verdict": 0.03571428571428571,
+    "box_share": 0.0
+   },
+   "F2_extent|codd": {
+    "n": 94,
+    "unified": 0.3617021276595745,
+    "first": 0.3617021276595745,
+    "no_verdict": 0.06382978723404255,
+    "box_share": 0.0
+   },
+   "F2_extent|cdw_seg": {
+    "n": 42,
+    "unified": 0.30952380952380953,
+    "first": 0.30952380952380953,
+    "no_verdict": 0.047619047619047616,
+    "box_share": 0.0
+   },
+   "F3_dominance|codd": {
+    "n": 16,
+    "unified": 0.0625,
+    "first": 0.0625,
+    "no_verdict": 0.0,
+    "box_share": 0.0
+   },
+   "F3_dominance|cdw_seg": {
+    "n": 29,
+    "unified": 0.3793103448275862,
+    "first": 0.3793103448275862,
+    "no_verdict": 0.034482758620689655,
+    "box_share": 0.0
+   },
+   "F4_contamination|codd": {
+    "n": 95,
+    "unified": 0.2,
+    "first": 0.2,
+    "no_verdict": 0.3684210526315789,
+    "box_share": 0.0
+   },
+   "F4_contamination|cdw_seg": {
+    "n": 43,
+    "unified": 0.20930232558139536,
+    "first": 0.20930232558139536,
+    "no_verdict": 0.3953488372093023,
+    "box_share": 0.0
+   }
+  }
+ }
+}

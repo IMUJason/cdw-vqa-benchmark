@@ -17,14 +17,28 @@ SEG_CLASSES = ["cardboard", "fill_dirt", "wood", "hard_plastic", "soft_plastic",
                "steel", "fabric", "concrete", "plasterboard"]
 
 
+_mcq_rng = random.Random(20261101)   # isolated stream: keeps F1 random draws identical to v1
+_key_rot = {"i": 0}                  # round-robin truth slot -> position-balanced keys
+
+
 def mcq(options, answer, n=4):
-    opts = [answer] + [o for o in options if o != answer]
-    random.shuffle(opts)
-    opts = opts[:n]
-    if answer not in opts:
-        opts[0] = answer
+    """Position-balanced MCQ: truth always present, its slot rotates A-D.
+
+    Distractors are sampled BEFORE slotting (no truncate-then-repair), and the
+    truth position is forced round-robin so the trivial always-A policy scores
+    exactly 1/n. Uses a dedicated RNG so the global stream (F1 class draws,
+    CODD sampling) is unchanged from the v1 build.
+    """
+    pool = list(dict.fromkeys(o for o in options if o != answer))
+    _mcq_rng.shuffle(pool)
+    chosen = pool[:n - 1]
+    if len(chosen) < n - 1:  # pool exhausted (F2 count bins): pad with duplicates skipped, fewer options
+        pass
+    slot = _key_rot["i"] % n
+    _key_rot["i"] += 1
+    opts = chosen[:slot] + [answer] + chosen[slot:]
     letters = "ABCD"
-    return {letters[i]: o for i, o in enumerate(opts)}, letters[opts.index(answer)]
+    return {letters[i]: o for i, o in enumerate(opts)}, letters[slot]
 
 
 def scene_items(dataset, image_id, stats, classes, non_mineral, split):
@@ -45,8 +59,12 @@ def scene_items(dataset, image_id, stats, classes, non_mineral, split):
                           choices=opts, answer=key, answer_text=str(k)))
     if len(present) >= 3:
         dom = max(stats.items(), key=lambda kv: kv[1][2])[0]
-        opts, key = mcq([c.replace("_", " ") for c in classes if c != dom],
-                        dom.replace("_", " "))
+        in_img = [c for c in present if c != dom]
+        fallback = [c for c in classes if c != dom and c not in in_img]
+        pool = [c.replace("_", " ") for c in in_img]
+        if len(pool) < 3:
+            pool = pool + [c.replace("_", " ") for c in fallback]
+        opts, key = mcq(pool, dom.replace("_", " "))
         items.append(dict(**base, family="F3_dominance", qtype="mcq",
                           question="Which material dominates this waste load by visible area?",
                           choices=opts, answer=key, answer_text=dom))

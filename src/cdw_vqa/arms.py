@@ -32,6 +32,21 @@ def arm_l1_inpaint(img: np.ndarray, target_mask: np.ndarray,
     return out
 
 
+def arm_l1_full_inpaint(img: np.ndarray, target_mask: np.ndarray) -> np.ndarray:
+    """L1 first-generation variant: full-image Telea inpaint of the background
+    (preserves smooth low-frequency illumination gradients; slow on large images).
+
+    Re-implementation for provenance, not the exact construction code; the released
+    images for diagnostic ids 000-071 are authoritative. On id 000 this function
+    reproduces the released background to a mean absolute difference of ~9/255
+    (background standard deviation 28.8 against 22.6 for the released image),
+    whereas the mean-fill variant differs by ~24/255. The sensitivity split
+    reported with the L1 results uses the released images."""
+    out = img.copy()
+    inv = (target_mask == 0).astype(np.uint8) * 255
+    return cv2.inpaint(out, inv, 7, cv2.INPAINT_TELEA)
+
+
 def arm_l1_fill(img: np.ndarray, target_mask: np.ndarray) -> np.ndarray:
     """L1b variant: background filled with dataset-mean neutral color."""
     out = img.copy()

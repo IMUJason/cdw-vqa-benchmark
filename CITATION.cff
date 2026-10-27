@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this benchmark or its code, please cite the manuscript."
+title: "When Objects Overshadow Materials: Benchmarking and Adapting Multimodal Large Language Models for Construction and Demolition Waste Auditing"
+authors:
+  - family-names: Cao
+    given-names: Jin Xin
+  - family-names: Li
+    given-names: Shi Yang
+year: 2026
+license: MIT
+repository-code: "https://github.com/IMUJason/cdw-vqa-benchmark"
+abstract: >-
+  CDW-VQA is a visual question answering benchmark for construction and demolition waste auditing,
+  built from public segmentation datasets, with a scene-level suite, an instance-level four-arm suite,
+  two human reference cohorts, two-level material scoring, and a diagnosis of what language-side
+  instruction tuning repairs.

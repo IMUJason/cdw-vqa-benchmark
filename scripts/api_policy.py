@@ -88,11 +88,16 @@ def main():
     P = lines.append
     mask = {name: {} for name in ["kimi", "glm"]}  # nested: uid spaces of the two models overlap
     for name in ["kimi", "glm"]:
-        rows = [json.loads(l) for l in open(RES / f"api_{name}.jsonl", encoding="utf-8")]
+        rows = [json.loads(l) for l in open(RES / f"api_{name}_v2.jsonl", encoding="utf-8")]
         n = len(rows)
         deliv = [r for r in rows if delivered(r["raw"])]
+        def rowkey(r):
+            if "uid" in r:
+                return r["uid"]
+            return (r.get("dataset"), r.get("image_id"), r.get("family"),
+                    r.get("question"), r.get("arm"), r.get("diag_id"))
         for r in rows:
-            mask[name][r["uid"]] = bool(delivered(r["raw"]))
+            mask[name][str(rowkey(r))] = bool(delivered(r["raw"]))
         P("=" * 78)
         P(f"{name}: n={n} delivered={len(deliv)} success={len(deliv)/n:.3f} "
           f"non-delivery={n - len(deliv)} ({(n - len(deliv))/n:.1%})")

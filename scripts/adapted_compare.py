@@ -17,7 +17,7 @@ def acc(recs, key_fn, key):
 
 def main(model="qwen3vl", zs_scene="qwen3-vl-8b", zs_inst="qwen3-vl-8b"):
     OUT = BASE / "results"
-    ad = [json.loads(l) for l in open(OUT / "adapted" / f"adapted_{model}.jsonl", encoding="utf-8")]
+    ad = [json.loads(l) for l in open(OUT / "adapted" / f"adapted_{model}_v2.jsonl", encoding="utf-8")]
     zs_s = [json.loads(l) for l in open(OUT / "scene_eval" / f"scene_{zs_scene}.jsonl", encoding="utf-8")]
     zs_s = [r for r in zs_s if SPLIT_MAP[r["split"]] == "test"]
     zs_i = [json.loads(l) for l in open(OUT / "w6" / f"responses_{zs_inst}.jsonl", encoding="utf-8")]

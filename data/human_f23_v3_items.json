@@ -1,0 +1,1141 @@
+[
+ {
+  "dataset": "codd",
+  "image_id": "w-2474",
+  "level": "scene",
+  "split": "training",
+  "family": "F2_extent",
+  "qtype": "mcq",
+  "question": "How many distinct waste material classes are visible in this image?",
+  "choices": {
+   "A": "0",
+   "B": "1",
+   "C": "2",
+   "D": "3"
+  },
+  "answer": "B",
+  "answer_text": "1",
+  "image_path": "datasets\\codd\\Construction and Demolition Waste Object Detection Dataset  (CODD)\\training\\w-2474.jpg",
+  "uid": "v3|codd|w-2474|F2_extent|How many distinct waste materi"
+ },
+ {
+  "dataset": "codd",
+  "image_id": "s-1668",
+  "level": "scene",
+  "split": "training",
+  "family": "F2_extent",
+  "qtype": "mcq",
+  "question": "How many distinct waste material classes are visible in this image?",
+  "choices": {
+   "A": "2",
+   "B": "0",
+   "C": "1",
+   "D": "3"
+  },
+  "answer": "C",
+  "answer_text": "1",
+  "image_path": "datasets\\codd\\Construction and Demolition Waste Object Detection Dataset  (CODD)\\training\\s-1668.jpg",
+  "uid": "v3|codd|s-1668|F2_extent|How many distinct waste materi"
+ },
+ {
+  "dataset": "codd",
+  "image_id": "other-2067",
+  "level": "scene",
+  "split": "validation",
+  "family": "F2_extent",
+  "qtype": "mcq",
+  "question": "How many distinct waste material classes are visible in this image?",
+  "choices": {
+   "A": "2",
+   "B": "0",
+   "C": "3",
+   "D": "1"
+  },
+  "answer": "D",
+  "answer_text": "1",
+  "image_path": "datasets\\codd\\Construction and Demolition Waste Object Detection Dataset  (CODD)\\validation\\other-2067.jpg",
+  "uid": "v3|codd|other-2067|F2_extent|How many distinct waste materi"
+ },
+ {
+  "dataset": "codd",
+  "image_id": "43",
+  "level": "scene",
+  "split": "testing",
+  "family": "F2_extent",
+  "qtype": "mcq",
+  "question": "How many distinct waste material classes are visible in this image?",
+  "choices": {
+   "A": "2",
+   "B": "1",
+   "C": "3",
+   "D": "4"
+  },
+  "answer": "C",
+  "answer_text": "3",
+  "image_path": "datasets\\codd\\Construction and Demolition Waste Object Detection Dataset  (CODD)\\testing\\43.jpg",
+  "uid": "v3|codd|43|F2_extent|How many distinct waste materi"
+ },
+ {
+  "dataset": "codd",
+  "image_id": "other-1954",
+  "level": "scene",
+  "split": "validation",
+  "family": "F2_extent",
+  "qtype": "mcq",
+  "question": "How many distinct waste material classes are visible in this image?",
+  "choices": {
+   "A": "1",
+   "B": "0",
+   "C": "3",
+   "D": "2"
+  },
+  "answer": "A",
+  "answer_text": "1",
+  "image_path": "datasets\\codd\\Construction and Demolition Waste Object Detection Dataset  (CODD)\\validation\\other-1954.jpg",
+  "uid": "v3|codd|other-1954|F2_extent|How many distinct waste materi"
+ },
+ {
+  "dataset": "codd",
+  "image_id": "plastic-1343",
+  "level": "scene",
+  "split": "training",
+  "family": "F2_extent",
+  "qtype": "mcq",
+  "question": "How many distinct waste material classes are visible in this image?",
+  "choices": {
+   "A": "1",
+   "B": "0",
+   "C": "2",
+   "D": "3"
+  },
+  "answer": "A",
+  "answer_text": "1",
+  "image_path": "datasets\\codd\\Construction and Demolition Waste Object Detection Dataset  (CODD)\\training\\plastic-1343.jpg",
+  "uid": "v3|codd|plastic-1343|F2_extent|How many distinct waste materi"
+ },
+ {
+  "dataset": "codd",
+  "image_id": "other-2260",
+  "level": "scene",
+  "split": "validation",
+  "family": "F2_extent",
+  "qtype": "mcq",
+  "question": "How many distinct waste material classes are visible in this image?",
+  "choices": {
+   "A": "3",
+   "B": "2",
+   "C": "1",
+   "D": "0"
+  },
+  "answer": "C",
+  "answer_text": "1",
+  "image_path": "datasets\\codd\\Construction and Demolition Waste Object Detection Dataset  (CODD)\\validation\\other-2260.jpg",
+  "uid": "v3|codd|other-2260|F2_extent|How many distinct waste materi"
+ },
+ {
+  "dataset": "codd",
+  "image_id": "other-2198",
+  "level": "scene",
+  "split": "testing",
+  "family": "F2_extent",
+  "qtype": "mcq",
+  "question": "How many distinct waste material classes are visible in this image?",
+  "choices": {
+   "A": "0",
+   "B": "1",
+   "C": "3",
+   "D": "2"
+  },
+  "answer": "B",
+  "answer_text": "1",
+  "image_path": "datasets\\codd\\Construction and Demolition Waste Object Detection Dataset  (CODD)\\testing\\other-2198.jpg",
+  "uid": "v3|codd|other-2198|F2_extent|How many distinct waste materi"
+ },
+ {
+  "dataset": "codd",
+  "image_id": "gen-735",
+  "level": "scene",
+  "split": "training",
+  "family": "F2_extent",
+  "qtype": "mcq",
+  "question": "How many distinct waste material classes are visible in this image?",
+  "choices": {
+   "A": "5",
+   "B": "1",
+   "C": "2",
+   "D": "3"
+  },
+  "answer": "D",
+  "answer_text": "3",
+  "image_path": "datasets\\codd\\Construction and Demolition Waste Object Detection Dataset  (CODD)\\training\\gen-735.jpg",
+  "uid": "v3|codd|gen-735|F2_extent|How many distinct waste materi"
+ },
+ {
+  "dataset": "codd",
+  "image_id": "other-2052",
+  "level": "scene",
+  "split": "training",
+  "family": "F2_extent",
+  "qtype": "mcq",
+  "question": "How many distinct waste material classes are visible in this image?",
+  "choices": {
+   "A": "0",
+   "B": "2",
+   "C": "3",
+   "D": "1"
+  },
+  "answer": "D",
+  "answer_text": "1",
+  "image_path": "datasets\\codd\\Construction and Demolition Waste Object Detection Dataset  (CODD)\\training\\other-2052.jpg",
+  "uid": "v3|codd|other-2052|F2_extent|How many distinct waste materi"
+ },
+ {
+  "dataset": "codd",
+  "image_id": "foam-2767",
+  "level": "scene",
+  "split": "training",
+  "family": "F2_extent",
+  "qtype": "mcq",
+  "question": "How many distinct waste material classes are visible in this image?",
+  "choices": {
+   "A": "0",
+   "B": "3",
+   "C": "2",
+   "D": "1"
+  },
+  "answer": "D",
+  "answer_text": "1",
+  "image_path": "datasets\\codd\\Construction and Demolition Waste Object Detection Dataset  (CODD)\\training\\foam-2767.jpg",
+  "uid": "v3|codd|foam-2767|F2_extent|How many distinct waste materi"
+ },
+ {
+  "dataset": "codd",
+  "image_id": "p-2621",
+  "level": "scene",
+  "split": "testing",
+  "family": "F2_extent",
+  "qtype": "mcq",
+  "question": "How many distinct waste material classes are visible in this image?",
+  "choices": {
+   "A": "2",
+   "B": "0",
+   "C": "3",
+   "D": "1"
+  },
+  "answer": "D",
+  "answer_text": "1",
+  "image_path": "datasets\\codd\\Construction and Demolition Waste Object Detection Dataset  (CODD)\\testing\\p-2621.jpg",
+  "uid": "v3|codd|p-2621|F2_extent|How many distinct waste materi"
+ },
+ {
+  "dataset": "codd",
+  "image_id": "s-1744",
+  "level": "scene",
+  "split": "testing",
+  "family": "F2_extent",
+  "qtype": "mcq",
+  "question": "How many distinct waste material classes are visible in this image?",
+  "choices": {
+   "A": "2",
+   "B": "3",
+   "C": "1",
+   "D": "0"
+  },
+  "answer": "C",
+  "answer_text": "1",
+  "image_path": "datasets\\codd\\Construction and Demolition Waste Object Detection Dataset  (CODD)\\testing\\s-1744.jpg",
+  "uid": "v3|codd|s-1744|F2_extent|How many distinct waste materi"
+ },
+ {
+  "dataset": "codd",
+  "image_id": "other-2102",
+  "level": "scene",
+  "split": "testing",
+  "family": "F2_extent",
+  "qtype": "mcq",
+  "question": "How many distinct waste material classes are visible in this image?",
+  "choices": {
+   "A": "2",
+   "B": "1",
+   "C": "3",
+   "D": "0"
+  },
+  "answer": "B",
+  "answer_text": "1",
+  "image_path": "datasets\\codd\\Construction and Demolition Waste Object Detection Dataset  (CODD)\\testing\\other-2102.jpg",
+  "uid": "v3|codd|other-2102|F2_extent|How many distinct waste materi"
+ },
+ {
+  "dataset": "codd",
+  "image_id": "2998",
+  "level": "scene",
+  "split": "training",
+  "family": "F2_extent",
+  "qtype": "mcq",
+  "question": "How many distinct waste material classes are visible in this image?",
+  "choices": {
+   "A": "3",
+   "B": "2",
+   "C": "1",
+   "D": "0"
+  },
+  "answer": "C",
+  "answer_text": "1",
+  "image_path": "datasets\\codd\\Construction and Demolition Waste Object Detection Dataset  (CODD)\\training\\2998.jpg",
+  "uid": "v3|codd|2998|F2_extent|How many distinct waste materi"
+ },
+ {
+  "dataset": "cdw_seg",
+  "image_id": "2022_0365",
+  "level": "scene",
+  "split": "train",
+  "family": "F2_extent",
+  "qtype": "mcq",
+  "question": "How many distinct waste material classes are visible in this image?",
+  "choices": {
+   "A": "1",
+   "B": "3",
+   "C": "4",
+   "D": "2"
+  },
+  "answer": "D",
+  "answer_text": "2",
+  "image_path": "datasets\\cdw_seg\\Ground_Truths_COCO_Format\\JPEGImages\\2022_0365.jpg",
+  "uid": "v3|cdw_seg|2022_0365|F2_extent|How many distinct waste materi"
+ },
+ {
+  "dataset": "cdw_seg",
+  "image_id": "2022_0381",
+  "level": "scene",
+  "split": "train",
+  "family": "F2_extent",
+  "qtype": "mcq",
+  "question": "How many distinct waste material classes are visible in this image?",
+  "choices": {
+   "A": "3",
+   "B": "6",
+   "C": "7",
+   "D": "5"
+  },
+  "answer": "D",
+  "answer_text": "5",
+  "image_path": "datasets\\cdw_seg\\Ground_Truths_COCO_Format\\JPEGImages\\2022_381.jpg",
+  "uid": "v3|cdw_seg|2022_0381|F2_extent|How many distinct waste materi"
+ },
+ {
+  "dataset": "cdw_seg",
+  "image_id": "2022_0049",
+  "level": "scene",
+  "split": "val",
+  "family": "F2_extent",
+  "qtype": "mcq",
+  "question": "How many distinct waste material classes are visible in this image?",
+  "choices": {
+   "A": "8",
+   "B": "6",
+   "C": "9",
+   "D": "7"
+  },
+  "answer": "A",
+  "answer_text": "8",
+  "image_path": "datasets\\cdw_seg\\Ground_Truths_COCO_Format\\JPEGImages\\2022_0049.jpg",
+  "uid": "v3|cdw_seg|2022_0049|F2_extent|How many distinct waste materi"
+ },
+ {
+  "dataset": "cdw_seg",
+  "image_id": "2022_0046",
+  "level": "scene",
+  "split": "train",
+  "family": "F2_extent",
+  "qtype": "mcq",
+  "question": "How many distinct waste material classes are visible in this image?",
+  "choices": {
+   "A": "7",
+   "B": "6",
+   "C": "4",
+   "D": "5"
+  },
+  "answer": "B",
+  "answer_text": "6",
+  "image_path": "datasets\\cdw_seg\\Ground_Truths_COCO_Format\\JPEGImages\\2022_0046.jpg",
+  "uid": "v3|cdw_seg|2022_0046|F2_extent|How many distinct waste materi"
+ },
+ {
+  "dataset": "cdw_seg",
+  "image_id": "2022_0205",
+  "level": "scene",
+  "split": "train",
+  "family": "F2_extent",
+  "qtype": "mcq",
+  "question": "How many distinct waste material classes are visible in this image?",
+  "choices": {
+   "A": "1",
+   "B": "3",
+   "C": "0",
+   "D": "2"
+  },
+  "answer": "A",
+  "answer_text": "1",
+  "image_path": "datasets\\cdw_seg\\Ground_Truths_COCO_Format\\JPEGImages\\2022_0205.jpg",
+  "uid": "v3|cdw_seg|2022_0205|F2_extent|How many distinct waste materi"
+ },
+ {
+  "dataset": "cdw_seg",
+  "image_id": "2022_0239",
+  "level": "scene",
+  "split": "val",
+  "family": "F2_extent",
+  "qtype": "mcq",
+  "question": "How many distinct waste material classes are visible in this image?",
+  "choices": {
+   "A": "2",
+   "B": "3",
+   "C": "1",
+   "D": "0"
+  },
+  "answer": "C",
+  "answer_text": "1",
+  "image_path": "datasets\\cdw_seg\\Ground_Truths_COCO_Format\\JPEGImages\\2022_0239.jpg",
+  "uid": "v3|cdw_seg|2022_0239|F2_extent|How many distinct waste materi"
+ },
+ {
+  "dataset": "cdw_seg",
+  "image_id": "2022_0286",
+  "level": "scene",
+  "split": "train",
+  "family": "F2_extent",
+  "qtype": "mcq",
+  "question": "How many distinct waste material classes are visible in this image?",
+  "choices": {
+   "A": "2",
+   "B": "3",
+   "C": "1",
+   "D": "5"
+  },
+  "answer": "B",
+  "answer_text": "3",
+  "image_path": "datasets\\cdw_seg\\Ground_Truths_COCO_Format\\JPEGImages\\2022_0286.jpg",
+  "uid": "v3|cdw_seg|2022_0286|F2_extent|How many distinct waste materi"
+ },
+ {
+  "dataset": "cdw_seg",
+  "image_id": "2022_0177",
+  "level": "scene",
+  "split": "train",
+  "family": "F2_extent",
+  "qtype": "mcq",
+  "question": "How many distinct waste material classes are visible in this image?",
+  "choices": {
+   "A": "5",
+   "B": "4",
+   "C": "3",
+   "D": "7"
+  },
+  "answer": "A",
+  "answer_text": "5",
+  "image_path": "datasets\\cdw_seg\\Ground_Truths_COCO_Format\\JPEGImages\\2022_0177.jpg",
+  "uid": "v3|cdw_seg|2022_0177|F2_extent|How many distinct waste materi"
+ },
+ {
+  "dataset": "cdw_seg",
+  "image_id": "2022_0037",
+  "level": "scene",
+  "split": "train",
+  "family": "F2_extent",
+  "qtype": "mcq",
+  "question": "How many distinct waste material classes are visible in this image?",
+  "choices": {
+   "A": "1",
+   "B": "3",
+   "C": "2",
+   "D": "0"
+  },
+  "answer": "A",
+  "answer_text": "1",
+  "image_path": "datasets\\cdw_seg\\Ground_Truths_COCO_Format\\JPEGImages\\2022_0037.jpg",
+  "uid": "v3|cdw_seg|2022_0037|F2_extent|How many distinct waste materi"
+ },
+ {
+  "dataset": "cdw_seg",
+  "image_id": "2022_0151",
+  "level": "scene",
+  "split": "train",
+  "family": "F2_extent",
+  "qtype": "mcq",
+  "question": "How many distinct waste material classes are visible in this image?",
+  "choices": {
+   "A": "0",
+   "B": "1",
+   "C": "3",
+   "D": "2"
+  },
+  "answer": "B",
+  "answer_text": "1",
+  "image_path": "datasets\\cdw_seg\\Ground_Truths_COCO_Format\\JPEGImages\\2022_0151.jpg",
+  "uid": "v3|cdw_seg|2022_0151|F2_extent|How many distinct waste materi"
+ },
+ {
+  "dataset": "cdw_seg",
+  "image_id": "2022_0318",
+  "level": "scene",
+  "split": "val",
+  "family": "F2_extent",
+  "qtype": "mcq",
+  "question": "How many distinct waste material classes are visible in this image?",
+  "choices": {
+   "A": "4",
+   "B": "5",
+   "C": "7",
+   "D": "3"
+  },
+  "answer": "B",
+  "answer_text": "5",
+  "image_path": "datasets\\cdw_seg\\Ground_Truths_COCO_Format\\JPEGImages\\2022_0318.jpg",
+  "uid": "v3|cdw_seg|2022_0318|F2_extent|How many distinct waste materi"
+ },
+ {
+  "dataset": "cdw_seg",
+  "image_id": "2022_0018",
+  "level": "scene",
+  "split": "val",
+  "family": "F2_extent",
+  "qtype": "mcq",
+  "question": "How many distinct waste material classes are visible in this image?",
+  "choices": {
+   "A": "6",
+   "B": "5",
+   "C": "7",
+   "D": "4"
+  },
+  "answer": "B",
+  "answer_text": "5",
+  "image_path": "datasets\\cdw_seg\\Ground_Truths_COCO_Format\\JPEGImages\\2022_0018.jpg",
+  "uid": "v3|cdw_seg|2022_0018|F2_extent|How many distinct waste materi"
+ },
+ {
+  "dataset": "cdw_seg",
+  "image_id": "2022_0003",
+  "level": "scene",
+  "split": "train",
+  "family": "F2_extent",
+  "qtype": "mcq",
+  "question": "How many distinct waste material classes are visible in this image?",
+  "choices": {
+   "A": "6",
+   "B": "7",
+   "C": "8",
+   "D": "10"
+  },
+  "answer": "C",
+  "answer_text": "8",
+  "image_path": "datasets\\cdw_seg\\Ground_Truths_COCO_Format\\JPEGImages\\2022_0003.jpg",
+  "uid": "v3|cdw_seg|2022_0003|F2_extent|How many distinct waste materi"
+ },
+ {
+  "dataset": "cdw_seg",
+  "image_id": "2022_0384",
+  "level": "scene",
+  "split": "train",
+  "family": "F2_extent",
+  "qtype": "mcq",
+  "question": "How many distinct waste material classes are visible in this image?",
+  "choices": {
+   "A": "3",
+   "B": "1",
+   "C": "2",
+   "D": "4"
+  },
+  "answer": "C",
+  "answer_text": "2",
+  "image_path": "datasets\\cdw_seg\\Ground_Truths_COCO_Format\\JPEGImages\\2022_384.jpg",
+  "uid": "v3|cdw_seg|2022_0384|F2_extent|How many distinct waste materi"
+ },
+ {
+  "dataset": "cdw_seg",
+  "image_id": "2022_0065",
+  "level": "scene",
+  "split": "train",
+  "family": "F2_extent",
+  "qtype": "mcq",
+  "question": "How many distinct waste material classes are visible in this image?",
+  "choices": {
+   "A": "5",
+   "B": "4",
+   "C": "6",
+   "D": "7"
+  },
+  "answer": "A",
+  "answer_text": "5",
+  "image_path": "datasets\\cdw_seg\\Ground_Truths_COCO_Format\\JPEGImages\\2022_0065.jpg",
+  "uid": "v3|cdw_seg|2022_0065|F2_extent|How many distinct waste materi"
+ },
+ {
+  "dataset": "codd",
+  "image_id": "327",
+  "level": "scene",
+  "split": "training",
+  "family": "F3_dominance",
+  "qtype": "mcq",
+  "question": "Which material dominates this waste load by visible area?",
+  "choices": {
+   "A": "gypsum board",
+   "B": "brick",
+   "C": "concrete",
+   "D": "tile"
+  },
+  "answer": "D",
+  "answer_text": "tile",
+  "image_path": "datasets\\codd\\Construction and Demolition Waste Object Detection Dataset  (CODD)\\training\\327.jpg",
+  "uid": "v3|codd|327|F3_dominance|Which material dominates this "
+ },
+ {
+  "dataset": "codd",
+  "image_id": "104",
+  "level": "scene",
+  "split": "training",
+  "family": "F3_dominance",
+  "qtype": "mcq",
+  "question": "Which material dominates this waste load by visible area?",
+  "choices": {
+   "A": "tile",
+   "B": "brick",
+   "C": "general w",
+   "D": "pipes"
+  },
+  "answer": "B",
+  "answer_text": "brick",
+  "image_path": "datasets\\codd\\Construction and Demolition Waste Object Detection Dataset  (CODD)\\training\\104.jpg",
+  "uid": "v3|codd|104|F3_dominance|Which material dominates this "
+ },
+ {
+  "dataset": "codd",
+  "image_id": "14",
+  "level": "scene",
+  "split": "training",
+  "family": "F3_dominance",
+  "qtype": "mcq",
+  "question": "Which material dominates this waste load by visible area?",
+  "choices": {
+   "A": "brick",
+   "B": "general w",
+   "C": "foam",
+   "D": "concrete"
+  },
+  "answer": "A",
+  "answer_text": "brick",
+  "image_path": "datasets\\codd\\Construction and Demolition Waste Object Detection Dataset  (CODD)\\training\\14.jpg",
+  "uid": "v3|codd|14|F3_dominance|Which material dominates this "
+ },
+ {
+  "dataset": "codd",
+  "image_id": "45",
+  "level": "scene",
+  "split": "training",
+  "family": "F3_dominance",
+  "qtype": "mcq",
+  "question": "Which material dominates this waste load by visible area?",
+  "choices": {
+   "A": "tile",
+   "B": "stone",
+   "C": "general w",
+   "D": "brick"
+  },
+  "answer": "D",
+  "answer_text": "brick",
+  "image_path": "datasets\\codd\\Construction and Demolition Waste Object Detection Dataset  (CODD)\\training\\45.jpg",
+  "uid": "v3|codd|45|F3_dominance|Which material dominates this "
+ },
+ {
+  "dataset": "codd",
+  "image_id": "2959",
+  "level": "scene",
+  "split": "validation",
+  "family": "F3_dominance",
+  "qtype": "mcq",
+  "question": "Which material dominates this waste load by visible area?",
+  "choices": {
+   "A": "concrete",
+   "B": "pipes",
+   "C": "general w",
+   "D": "plastic"
+  },
+  "answer": "D",
+  "answer_text": "plastic",
+  "image_path": "datasets\\codd\\Construction and Demolition Waste Object Detection Dataset  (CODD)\\validation\\2959.jpg",
+  "uid": "v3|codd|2959|F3_dominance|Which material dominates this "
+ },
+ {
+  "dataset": "codd",
+  "image_id": "251",
+  "level": "scene",
+  "split": "training",
+  "family": "F3_dominance",
+  "qtype": "mcq",
+  "question": "Which material dominates this waste load by visible area?",
+  "choices": {
+   "A": "concrete",
+   "B": "plastic",
+   "C": "tile",
+   "D": "brick"
+  },
+  "answer": "A",
+  "answer_text": "concrete",
+  "image_path": "datasets\\codd\\Construction and Demolition Waste Object Detection Dataset  (CODD)\\training\\251.jpg",
+  "uid": "v3|codd|251|F3_dominance|Which material dominates this "
+ },
+ {
+  "dataset": "codd",
+  "image_id": "322",
+  "level": "scene",
+  "split": "validation",
+  "family": "F3_dominance",
+  "qtype": "mcq",
+  "question": "Which material dominates this waste load by visible area?",
+  "choices": {
+   "A": "plastic",
+   "B": "foam",
+   "C": "stone",
+   "D": "tile"
+  },
+  "answer": "D",
+  "answer_text": "tile",
+  "image_path": "datasets\\codd\\Construction and Demolition Waste Object Detection Dataset  (CODD)\\validation\\322.jpg",
+  "uid": "v3|codd|322|F3_dominance|Which material dominates this "
+ },
+ {
+  "dataset": "codd",
+  "image_id": "257",
+  "level": "scene",
+  "split": "training",
+  "family": "F3_dominance",
+  "qtype": "mcq",
+  "question": "Which material dominates this waste load by visible area?",
+  "choices": {
+   "A": "wood",
+   "B": "tile",
+   "C": "brick",
+   "D": "stone"
+  },
+  "answer": "B",
+  "answer_text": "tile",
+  "image_path": "datasets\\codd\\Construction and Demolition Waste Object Detection Dataset  (CODD)\\training\\257.jpg",
+  "uid": "v3|codd|257|F3_dominance|Which material dominates this "
+ },
+ {
+  "dataset": "codd",
+  "image_id": "2962",
+  "level": "scene",
+  "split": "testing",
+  "family": "F3_dominance",
+  "qtype": "mcq",
+  "question": "Which material dominates this waste load by visible area?",
+  "choices": {
+   "A": "concrete",
+   "B": "plastic",
+   "C": "tile",
+   "D": "stone"
+  },
+  "answer": "B",
+  "answer_text": "plastic",
+  "image_path": "datasets\\codd\\Construction and Demolition Waste Object Detection Dataset  (CODD)\\testing\\2962.jpg",
+  "uid": "v3|codd|2962|F3_dominance|Which material dominates this "
+ },
+ {
+  "dataset": "codd",
+  "image_id": "498",
+  "level": "scene",
+  "split": "training",
+  "family": "F3_dominance",
+  "qtype": "mcq",
+  "question": "Which material dominates this waste load by visible area?",
+  "choices": {
+   "A": "tile",
+   "B": "pipes",
+   "C": "general w",
+   "D": "gypsum board"
+  },
+  "answer": "A",
+  "answer_text": "tile",
+  "image_path": "datasets\\codd\\Construction and Demolition Waste Object Detection Dataset  (CODD)\\training\\498.jpg",
+  "uid": "v3|codd|498|F3_dominance|Which material dominates this "
+ },
+ {
+  "dataset": "codd",
+  "image_id": "36",
+  "level": "scene",
+  "split": "training",
+  "family": "F3_dominance",
+  "qtype": "mcq",
+  "question": "Which material dominates this waste load by visible area?",
+  "choices": {
+   "A": "general w",
+   "B": "brick",
+   "C": "gypsum board",
+   "D": "foam"
+  },
+  "answer": "B",
+  "answer_text": "brick",
+  "image_path": "datasets\\codd\\Construction and Demolition Waste Object Detection Dataset  (CODD)\\training\\36.jpg",
+  "uid": "v3|codd|36|F3_dominance|Which material dominates this "
+ },
+ {
+  "dataset": "codd",
+  "image_id": "111",
+  "level": "scene",
+  "split": "training",
+  "family": "F3_dominance",
+  "qtype": "mcq",
+  "question": "Which material dominates this waste load by visible area?",
+  "choices": {
+   "A": "tile",
+   "B": "brick",
+   "C": "concrete",
+   "D": "general w"
+  },
+  "answer": "C",
+  "answer_text": "concrete",
+  "image_path": "datasets\\codd\\Construction and Demolition Waste Object Detection Dataset  (CODD)\\training\\111.jpg",
+  "uid": "v3|codd|111|F3_dominance|Which material dominates this "
+ },
+ {
+  "dataset": "codd",
+  "image_id": "137",
+  "level": "scene",
+  "split": "testing",
+  "family": "F3_dominance",
+  "qtype": "mcq",
+  "question": "Which material dominates this waste load by visible area?",
+  "choices": {
+   "A": "brick",
+   "B": "pipes",
+   "C": "tile",
+   "D": "foam"
+  },
+  "answer": "C",
+  "answer_text": "tile",
+  "image_path": "datasets\\codd\\Construction and Demolition Waste Object Detection Dataset  (CODD)\\testing\\137.jpg",
+  "uid": "v3|codd|137|F3_dominance|Which material dominates this "
+ },
+ {
+  "dataset": "codd",
+  "image_id": "201",
+  "level": "scene",
+  "split": "training",
+  "family": "F3_dominance",
+  "qtype": "mcq",
+  "question": "Which material dominates this waste load by visible area?",
+  "choices": {
+   "A": "brick",
+   "B": "stone",
+   "C": "tile",
+   "D": "wood"
+  },
+  "answer": "A",
+  "answer_text": "brick",
+  "image_path": "datasets\\codd\\Construction and Demolition Waste Object Detection Dataset  (CODD)\\training\\201.jpg",
+  "uid": "v3|codd|201|F3_dominance|Which material dominates this "
+ },
+ {
+  "dataset": "codd",
+  "image_id": "42",
+  "level": "scene",
+  "split": "training",
+  "family": "F3_dominance",
+  "qtype": "mcq",
+  "question": "Which material dominates this waste load by visible area?",
+  "choices": {
+   "A": "pipes",
+   "B": "concrete",
+   "C": "tile",
+   "D": "plastic"
+  },
+  "answer": "C",
+  "answer_text": "tile",
+  "image_path": "datasets\\codd\\Construction and Demolition Waste Object Detection Dataset  (CODD)\\training\\42.jpg",
+  "uid": "v3|codd|42|F3_dominance|Which material dominates this "
+ },
+ {
+  "dataset": "cdw_seg",
+  "image_id": "2022_0127",
+  "level": "scene",
+  "split": "train",
+  "family": "F3_dominance",
+  "qtype": "mcq",
+  "question": "Which material dominates this waste load by visible area?",
+  "choices": {
+   "A": "wood",
+   "B": "soft plastic",
+   "C": "hard plastic",
+   "D": "concrete"
+  },
+  "answer": "D",
+  "answer_text": "concrete",
+  "image_path": "datasets\\cdw_seg\\Ground_Truths_COCO_Format\\JPEGImages\\2022_0127.jpg",
+  "uid": "v3|cdw_seg|2022_0127|F3_dominance|Which material dominates this "
+ },
+ {
+  "dataset": "cdw_seg",
+  "image_id": "2022_0210",
+  "level": "scene",
+  "split": "test",
+  "family": "F3_dominance",
+  "qtype": "mcq",
+  "question": "Which material dominates this waste load by visible area?",
+  "choices": {
+   "A": "hard plastic",
+   "B": "concrete",
+   "C": "soft plastic"
+  },
+  "answer": "C",
+  "answer_text": "soft plastic",
+  "image_path": "datasets\\cdw_seg\\Ground_Truths_COCO_Format\\JPEGImages\\2022_0210.jpg",
+  "uid": "v3|cdw_seg|2022_0210|F3_dominance|Which material dominates this "
+ },
+ {
+  "dataset": "cdw_seg",
+  "image_id": "2022_0111",
+  "level": "scene",
+  "split": "train",
+  "family": "F3_dominance",
+  "qtype": "mcq",
+  "question": "Which material dominates this waste load by visible area?",
+  "choices": {
+   "A": "plasterboard",
+   "B": "hard plastic",
+   "C": "wood",
+   "D": "concrete"
+  },
+  "answer": "D",
+  "answer_text": "concrete",
+  "image_path": "datasets\\cdw_seg\\Ground_Truths_COCO_Format\\JPEGImages\\2022_0111.jpg",
+  "uid": "v3|cdw_seg|2022_0111|F3_dominance|Which material dominates this "
+ },
+ {
+  "dataset": "cdw_seg",
+  "image_id": "2022_0033",
+  "level": "scene",
+  "split": "train",
+  "family": "F3_dominance",
+  "qtype": "mcq",
+  "question": "Which material dominates this waste load by visible area?",
+  "choices": {
+   "A": "fabric",
+   "B": "steel",
+   "C": "hard plastic",
+   "D": "wood"
+  },
+  "answer": "D",
+  "answer_text": "wood",
+  "image_path": "datasets\\cdw_seg\\Ground_Truths_COCO_Format\\JPEGImages\\2022_0033.jpg",
+  "uid": "v3|cdw_seg|2022_0033|F3_dominance|Which material dominates this "
+ },
+ {
+  "dataset": "cdw_seg",
+  "image_id": "2022_0062",
+  "level": "scene",
+  "split": "train",
+  "family": "F3_dominance",
+  "qtype": "mcq",
+  "question": "Which material dominates this waste load by visible area?",
+  "choices": {
+   "A": "cardboard",
+   "B": "soft plastic",
+   "C": "concrete",
+   "D": "steel"
+  },
+  "answer": "C",
+  "answer_text": "concrete",
+  "image_path": "datasets\\cdw_seg\\Ground_Truths_COCO_Format\\JPEGImages\\2022_0062.jpg",
+  "uid": "v3|cdw_seg|2022_0062|F3_dominance|Which material dominates this "
+ },
+ {
+  "dataset": "cdw_seg",
+  "image_id": "2022_0257",
+  "level": "scene",
+  "split": "train",
+  "family": "F3_dominance",
+  "qtype": "mcq",
+  "question": "Which material dominates this waste load by visible area?",
+  "choices": {
+   "A": "hard plastic",
+   "B": "concrete",
+   "C": "wood",
+   "D": "cardboard"
+  },
+  "answer": "B",
+  "answer_text": "concrete",
+  "image_path": "datasets\\cdw_seg\\Ground_Truths_COCO_Format\\JPEGImages\\2022_0257.jpg",
+  "uid": "v3|cdw_seg|2022_0257|F3_dominance|Which material dominates this "
+ },
+ {
+  "dataset": "cdw_seg",
+  "image_id": "2022_0314",
+  "level": "scene",
+  "split": "train",
+  "family": "F3_dominance",
+  "qtype": "mcq",
+  "question": "Which material dominates this waste load by visible area?",
+  "choices": {
+   "A": "concrete",
+   "B": "soft plastic",
+   "C": "steel",
+   "D": "plasterboard"
+  },
+  "answer": "A",
+  "answer_text": "concrete",
+  "image_path": "datasets\\cdw_seg\\Ground_Truths_COCO_Format\\JPEGImages\\2022_0314.jpg",
+  "uid": "v3|cdw_seg|2022_0314|F3_dominance|Which material dominates this "
+ },
+ {
+  "dataset": "cdw_seg",
+  "image_id": "2022_0400",
+  "level": "scene",
+  "split": "test",
+  "family": "F3_dominance",
+  "qtype": "mcq",
+  "question": "Which material dominates this waste load by visible area?",
+  "choices": {
+   "A": "soft plastic",
+   "B": "wood",
+   "C": "steel",
+   "D": "plasterboard"
+  },
+  "answer": "D",
+  "answer_text": "plasterboard",
+  "image_path": "datasets\\cdw_seg\\Ground_Truths_COCO_Format\\JPEGImages\\2022_400.jpg",
+  "uid": "v3|cdw_seg|2022_0400|F3_dominance|Which material dominates this "
+ },
+ {
+  "dataset": "cdw_seg",
+  "image_id": "2022_0022",
+  "level": "scene",
+  "split": "train",
+  "family": "F3_dominance",
+  "qtype": "mcq",
+  "question": "Which material dominates this waste load by visible area?",
+  "choices": {
+   "A": "fill dirt",
+   "B": "soft plastic",
+   "C": "fabric",
+   "D": "cardboard"
+  },
+  "answer": "A",
+  "answer_text": "fill dirt",
+  "image_path": "datasets\\cdw_seg\\Ground_Truths_COCO_Format\\JPEGImages\\2022_0022.jpg",
+  "uid": "v3|cdw_seg|2022_0022|F3_dominance|Which material dominates this "
+ },
+ {
+  "dataset": "cdw_seg",
+  "image_id": "2022_0355",
+  "level": "scene",
+  "split": "train",
+  "family": "F3_dominance",
+  "qtype": "mcq",
+  "question": "Which material dominates this waste load by visible area?",
+  "choices": {
+   "A": "hard plastic",
+   "B": "wood",
+   "C": "steel",
+   "D": "soft plastic"
+  },
+  "answer": "A",
+  "answer_text": "hard plastic",
+  "image_path": "datasets\\cdw_seg\\Ground_Truths_COCO_Format\\JPEGImages\\2022_0355.jpg",
+  "uid": "v3|cdw_seg|2022_0355|F3_dominance|Which material dominates this "
+ },
+ {
+  "dataset": "cdw_seg",
+  "image_id": "2022_0106",
+  "level": "scene",
+  "split": "train",
+  "family": "F3_dominance",
+  "qtype": "mcq",
+  "question": "Which material dominates this waste load by visible area?",
+  "choices": {
+   "A": "concrete",
+   "B": "cardboard",
+   "C": "fill dirt",
+   "D": "steel"
+  },
+  "answer": "C",
+  "answer_text": "fill dirt",
+  "image_path": "datasets\\cdw_seg\\Ground_Truths_COCO_Format\\JPEGImages\\2022_0106.jpg",
+  "uid": "v3|cdw_seg|2022_0106|F3_dominance|Which material dominates this "
+ },
+ {
+  "dataset": "cdw_seg",
+  "image_id": "2022_0235",
+  "level": "scene",
+  "split": "train",
+  "family": "F3_dominance",
+  "qtype": "mcq",
+  "question": "Which material dominates this waste load by visible area?",
+  "choices": {
+   "A": "fabric",
+   "B": "concrete",
+   "C": "steel",
+   "D": "wood"
+  },
+  "answer": "D",
+  "answer_text": "wood",
+  "image_path": "datasets\\cdw_seg\\Ground_Truths_COCO_Format\\JPEGImages\\2022_0235.jpg",
+  "uid": "v3|cdw_seg|2022_0235|F3_dominance|Which material dominates this "
+ },
+ {
+  "dataset": "cdw_seg",
+  "image_id": "2022_0295",
+  "level": "scene",
+  "split": "train",
+  "family": "F3_dominance",
+  "qtype": "mcq",
+  "question": "Which material dominates this waste load by visible area?",
+  "choices": {
+   "A": "concrete",
+   "B": "steel",
+   "C": "plasterboard",
+   "D": "wood"
+  },
+  "answer": "D",
+  "answer_text": "wood",
+  "image_path": "datasets\\cdw_seg\\Ground_Truths_COCO_Format\\JPEGImages\\2022_0295.jpg",
+  "uid": "v3|cdw_seg|2022_0295|F3_dominance|Which material dominates this "
+ },
+ {
+  "dataset": "cdw_seg",
+  "image_id": "2022_0098",
+  "level": "scene",
+  "split": "val",
+  "family": "F3_dominance",
+  "qtype": "mcq",
+  "question": "Which material dominates this waste load by visible area?",
+  "choices": {
+   "A": "hard plastic",
+   "B": "steel",
+   "C": "concrete",
+   "D": "wood"
+  },
+  "answer": "C",
+  "answer_text": "concrete",
+  "image_path": "datasets\\cdw_seg\\Ground_Truths_COCO_Format\\JPEGImages\\2022_0098.jpg",
+  "uid": "v3|cdw_seg|2022_0098|F3_dominance|Which material dominates this "
+ },
+ {
+  "dataset": "cdw_seg",
+  "image_id": "2022_0358",
+  "level": "scene",
+  "split": "val",
+  "family": "F3_dominance",
+  "qtype": "mcq",
+  "question": "Which material dominates this waste load by visible area?",
+  "choices": {
+   "A": "hard plastic",
+   "B": "soft plastic",
+   "C": "wood",
+   "D": "fabric"
+  },
+  "answer": "D",
+  "answer_text": "fabric",
+  "image_path": "datasets\\cdw_seg\\Ground_Truths_COCO_Format\\JPEGImages\\2022_0358.jpg",
+  "uid": "v3|cdw_seg|2022_0358|F3_dominance|Which material dominates this "
+ }
+]

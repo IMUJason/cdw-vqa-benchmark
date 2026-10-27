@@ -1,16 +1,16 @@
 """QLoRA SFT for GLM-4.1V-9B-Thinking (GLM-specific data prep).
 Same recipe as train_qlora.py but without qwen_vl_utils.
 Usage: python scripts/train_qlora_glm.py [--smoke]"""
-import sys, json, time, argparse
+import sys, json, time, argparse, os
 from pathlib import Path
 
 BASE = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(BASE))
 DATA = BASE / "data"
 CACHE = Path(r"datasets/plan3_sft_cache")
-OUT_DIR = Path(r"models/adapters/glm41v-cdw-lora-r16")
+OUT_DIR = Path(os.environ.get("OUT_DIR", r"models/adapters/glm41v-cdw-lora-r16"))
 MODEL_PATH = r"models/glm-4.1v-9b-thinking"
-MAX_SIDE, EPOCHS, LR, ACCUM = 768, 2, 1e-4, 8
+MAX_SIDE, EPOCHS, LR, ACCUM = 512, 2, 1e-4, 8
 LORA_R, LORA_ALPHA, LORA_DROP = 16, 32, 0.05
 
 
@@ -54,7 +54,8 @@ def main():
                        task_type="CAUSAL_LM")
     model = get_peft_model(model, lconf)
     model.print_trainable_parameters()
-    model.gradient_checkpointing_enable()
+    if os.environ.get("GRAD_CKPT", "1") != "0":
+        model.gradient_checkpointing_enable()
     model.config.use_cache = False
     eos = processor.tokenizer.eos_token or "<|endoftext|>"
 
@@ -78,12 +79,16 @@ def main():
             prompt = processor.apply_chat_template(msgs, tokenize=False,
                                                    add_generation_prompt=True)
             full = prompt + it["answer"] + eos
-            p_in = processor(text=[prompt], images=[img], return_tensors="pt")
+            # single processor call: encode full text+image once;
+            # answer length via tokenizer-only (no image) for label masking
             f_in = processor(text=[full], images=[img], return_tensors="pt")
-            n_p = p_in["input_ids"].shape[1]
+            ans_ids = processor.tokenizer(it["answer"] + eos,
+                                          return_tensors="pt",
+                                          add_special_tokens=False)
+            n_ans = ans_ids["input_ids"].shape[1]
             ids = f_in["input_ids"][0]
             labels = ids.clone()
-            labels[:n_p] = -100
+            labels[:ids.shape[0] - n_ans] = -100
             keys = dict(input_ids=ids, labels=labels,
                         mm_ids=f_in.get("mm_token_type_ids",
                                         torch.zeros_like(f_in["input_ids"]))[0])
@@ -134,6 +139,10 @@ def main():
                 torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
                 opt.step(); sched.step(); opt.zero_grad(set_to_none=True)
                 gstep += 1
+                if gstep % 100 == 0:
+                    ck = OUT_DIR.parent / (OUT_DIR.name + f"-step{gstep}")
+                    model.save_pretrained(ck)
+                    print(f"CHECKPOINT {ck} | step {gstep}", flush=True)
                 if gstep % 20 == 0:
                     print(f"ep{ep} step {gstep}/{steps_total} "
                           f"loss {running / (20 * ACCUM):.4f} "

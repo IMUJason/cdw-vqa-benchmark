@@ -1,0 +1,39 @@
+{
+ "tau": 0.005,
+ "codd_test": {
+  "F1_presence": {
+   "acc": 0.847,
+   "n": 190
+  },
+  "F2_extent": {
+   "acc": 0.684,
+   "n": 95
+  },
+  "F3_dominance": {
+   "acc": 0.529,
+   "n": 17
+  },
+  "F4_contamination": {
+   "acc": 0.874,
+   "n": 95
+  }
+ },
+ "cdw_seg_all": {
+  "F1_presence": {
+   "acc": 0.591,
+   "n": 846
+  },
+  "F2_extent": {
+   "acc": 0.191,
+   "n": 425
+  },
+  "F3_dominance": {
+   "acc": 0.264,
+   "n": 288
+  },
+  "F4_contamination": {
+   "acc": 0.872,
+   "n": 430
+  }
+ }
+}

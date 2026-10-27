@@ -23,6 +23,12 @@ CONFIGS = {
     "qwen25vl_l0": dict(base=r"models/qwen2.5-vl-7b-instruct",
                         adapter=r"models/adapters/qwen25vl-cdw-lora-r16-l0",
                         max_tokens=64),
+    "qwen3vl_l0v2": dict(base=r"models/qwen3-vl-8b-instruct",
+                         adapter=r"models/adapters/qwen3vl-cdw-lora-r16-l0v2",
+                         max_tokens=64),
+    "qwen25vl_l0v2": dict(base=r"models/qwen2.5-vl-7b-instruct",
+                          adapter=r"models/adapters/qwen25vl-cdw-lora-r16-l0v2",
+                          max_tokens=64),
 }
 
 

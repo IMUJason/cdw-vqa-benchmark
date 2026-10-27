@@ -79,9 +79,11 @@ def main():
         "zs_qwen3": RES / "w6" / "responses_qwen3-vl-8b.jsonl",
         "zs_qwen25": RES / "w6" / "responses_qwen2.5-vl-7b.jsonl",
         "zs_glm41": RES / "w6" / "responses_glm-4.1v-9b.jsonl",
-        "ad_qwen3": RES / "adapted" / "adapted_qwen3vl.jsonl",
-        "ad_qwen25": RES / "adapted" / "adapted_qwen25vl.jsonl",
-        "oracle_qwen3": RES / "oracle" / "oracle_boxed_qwen3vl.jsonl",
+        # adapted / oracle runs on the position-balanced corpus (test split only)
+        "ad_qwen3": RES / "adapted" / "adapted_qwen3vl_v2.jsonl",
+        "ad_qwen25": RES / "adapted" / "adapted_qwen25vl_v2.jsonl",
+        "oracle_qwen3": RES / "oracle" / "oracle_boxed_qwen3vl_v2.jsonl",
+        "oracle_qwen25": RES / "oracle" / "oracle_boxed_qwen25vl_v2.jsonl",
     }
     for k, p in files.items():
         assert p.exists(), p
@@ -90,7 +92,8 @@ def main():
 
     # ---------- 1. per-arm object / material(fine, coarse) on pipes ----------
     P("=" * 70)
-    P("1. PIPES PER-ARM, two-level material scoring (all splits, n=348/arm-family)")
+    P("1. PIPES PER-ARM, two-level material scoring "
+      "(zero-shot: all splits, n=348/arm-family; adapted/oracle: test split, n=188/189)")
     P("=" * 70)
     for mk, p in files.items():
         rows = pipes_rows(load(p))
@@ -108,9 +111,13 @@ def main():
                 else:
                     fine = sum(mat_score(r["raw"], r["answer"])[0] for r in sel) / len(sel)
                     coarse = sum(mat_score(r["raw"], r["answer"])[1] for r in sel) / len(sel)
-                    stored = sum(r["correct"] for r in sel) / len(sel)
+                    # the v2 (rebuilt-corpus) evaluations do not carry a stored
+                    # correctness flag; report the artefact only where it exists
+                    stored = (sum(r["correct"] for r in sel) / len(sel)
+                              if all("correct" in r for r in sel) else None)
+                    stored_s = f"{stored:.3f}" if stored is not None else "n/a"
                     P(f"  {arm} material fine   n={len(sel)} acc={fine:.3f}   "
-                      f"coarse={coarse:.3f}   stored(coarse+alias)={stored:.3f}")
+                      f"coarse={coarse:.3f}   stored(coarse+alias)={stored_s}")
                     rep[(fam, arm)] = dict(n=len(sel), mat_fine=fine, mat_coarse=coarse,
                                            stored=stored)
         report[mk] = rep

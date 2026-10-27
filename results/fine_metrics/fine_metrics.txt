@@ -1,5 +1,5 @@
 ======================================================================
-1. PIPES PER-ARM, two-level material scoring (all splits, n=348/arm-family)
+1. PIPES PER-ARM, two-level material scoring (zero-shot: all splits, n=348/arm-family; adapted/oracle: test split, n=188/189)
 ======================================================================
 
 -- zs_qwen3
@@ -33,28 +33,32 @@
   L3 material fine   n=348 acc=0.046   coarse=0.066   stored(coarse+alias)=0.066
 
 -- ad_qwen3
-  L0 object          n=189 acc=0.487
-  L1 object          n=189 acc=0.862
-  L2 object          n=189 acc=0.841
-  L3 object          n=189 acc=0.926
-  L0 material fine   n=188 acc=0.378   coarse=0.729   stored(coarse+alias)=0.729
-  L1 material fine   n=188 acc=0.766   coarse=0.803   stored(coarse+alias)=0.803
-  L2 material fine   n=188 acc=0.771   coarse=0.809   stored(coarse+alias)=0.809
-  L3 material fine   n=188 acc=0.819   coarse=0.819   stored(coarse+alias)=0.819
+  L0 object          n=189 acc=0.333
+  L1 object          n=189 acc=0.841
+  L2 object          n=189 acc=0.836
+  L3 object          n=189 acc=0.921
+  L0 material fine   n=188 acc=0.277   coarse=0.628   stored(coarse+alias)=0.628
+  L1 material fine   n=188 acc=0.809   coarse=0.824   stored(coarse+alias)=0.824
+  L2 material fine   n=188 acc=0.766   coarse=0.782   stored(coarse+alias)=0.782
+  L3 material fine   n=188 acc=0.814   coarse=0.814   stored(coarse+alias)=0.814
 
 -- ad_qwen25
-  L0 object          n=189 acc=0.899
-  L1 object          n=189 acc=0.947
-  L2 object          n=189 acc=0.894
-  L3 object          n=189 acc=0.947
-  L0 material fine   n=188 acc=0.622   coarse=0.777   stored(coarse+alias)=0.777
-  L1 material fine   n=188 acc=0.840   coarse=0.862   stored(coarse+alias)=0.862
-  L2 material fine   n=188 acc=0.777   coarse=0.867   stored(coarse+alias)=0.867
-  L3 material fine   n=188 acc=0.894   coarse=0.899   stored(coarse+alias)=0.899
+  L0 object          n=189 acc=0.672
+  L1 object          n=189 acc=0.878
+  L2 object          n=189 acc=0.841
+  L3 object          n=189 acc=0.942
+  L0 material fine   n=188 acc=0.473   coarse=0.755   stored(coarse+alias)=0.755
+  L1 material fine   n=188 acc=0.745   coarse=0.798   stored(coarse+alias)=0.798
+  L2 material fine   n=188 acc=0.676   coarse=0.862   stored(coarse+alias)=0.862
+  L3 material fine   n=188 acc=0.777   coarse=0.798   stored(coarse+alias)=0.798
 
 -- oracle_qwen3
-  L0 object          n=189 acc=0.862
-  L0 material fine   n=188 acc=0.777   coarse=0.835   stored(coarse+alias)=0.835
+  L0 object          n=189 acc=0.857
+  L0 material fine   n=188 acc=0.793   coarse=0.851   stored(coarse+alias)=n/a
+
+-- oracle_qwen25
+  L0 object          n=189 acc=0.847
+  L0 material fine   n=188 acc=0.644   coarse=0.739   stored(coarse+alias)=n/a
 
 ======================================================================
 1b. same, TEST split only (n=189/188)
@@ -91,24 +95,24 @@
   L3 material n=188 fine=0.053 coarse=0.080
 
 -- ad_qwen3
-  L0 object   n=189 acc=0.487
-  L1 object   n=189 acc=0.862
-  L2 object   n=189 acc=0.841
-  L3 object   n=189 acc=0.926
-  L0 material n=188 fine=0.378 coarse=0.729
-  L1 material n=188 fine=0.766 coarse=0.803
-  L2 material n=188 fine=0.771 coarse=0.809
-  L3 material n=188 fine=0.819 coarse=0.819
+  L0 object   n=189 acc=0.333
+  L1 object   n=189 acc=0.841
+  L2 object   n=189 acc=0.836
+  L3 object   n=189 acc=0.921
+  L0 material n=188 fine=0.277 coarse=0.628
+  L1 material n=188 fine=0.809 coarse=0.824
+  L2 material n=188 fine=0.766 coarse=0.782
+  L3 material n=188 fine=0.814 coarse=0.814
 
 -- ad_qwen25
-  L0 object   n=189 acc=0.899
-  L1 object   n=189 acc=0.947
-  L2 object   n=189 acc=0.894
-  L3 object   n=189 acc=0.947
-  L0 material n=188 fine=0.622 coarse=0.777
-  L1 material n=188 fine=0.840 coarse=0.862
-  L2 material n=188 fine=0.777 coarse=0.867
-  L3 material n=188 fine=0.894 coarse=0.899
+  L0 object   n=189 acc=0.672
+  L1 object   n=189 acc=0.878
+  L2 object   n=189 acc=0.841
+  L3 object   n=189 acc=0.942
+  L0 material n=188 fine=0.473 coarse=0.755
+  L1 material n=188 fine=0.745 coarse=0.798
+  L2 material n=188 fine=0.676 coarse=0.862
+  L3 material n=188 fine=0.777 coarse=0.798
 
 ======================================================================
 2. CORRECTED INTERACTION GATE (fine scorer, orthogonal pipes, all splits)
@@ -144,24 +148,24 @@ cluster bootstrap 95% CI (B=2000, cluster=instance): [+0.192, +0.272]
 ======================================================================
 
 -- Qwen3-VL-8B
-  L0 instance_object   zs=0.265 ad=0.487 discordant 11->53 (worse->better) p=1.01e-07
-  L1 instance_object   zs=0.090 ad=0.862 discordant 0->146 (worse->better) p=2.24e-44
-  L2 instance_object   zs=0.153 ad=0.841 discordant 0->130 (worse->better) p=1.47e-39
-  L3 instance_object   zs=0.185 ad=0.926 discordant 0->140 (worse->better) p=1.43e-42
-  L0 instance_material zs=0.011 ad=0.378 discordant 1->70 (worse->better) p=6.10e-20
-  L1 instance_material zs=0.090 ad=0.766 discordant 7->134 (worse->better) p=1.43e-31
-  L2 instance_material zs=0.085 ad=0.771 discordant 3->132 (worse->better) p=1.88e-35
-  L3 instance_material zs=0.064 ad=0.819 discordant 2->144 (worse->better) p=2.41e-40
+  L0 instance_object   zs=0.265 ad=0.333 discordant 15->28 (worse->better) p=6.60e-02
+  L1 instance_object   zs=0.090 ad=0.841 discordant 0->142 (worse->better) p=3.59e-43
+  L2 instance_object   zs=0.153 ad=0.836 discordant 0->129 (worse->better) p=2.94e-39
+  L3 instance_object   zs=0.185 ad=0.921 discordant 0->139 (worse->better) p=2.87e-42
+  L0 instance_material zs=0.011 ad=0.277 discordant 2->52 (worse->better) p=1.65e-13
+  L1 instance_material zs=0.090 ad=0.809 discordant 4->139 (worse->better) p=3.08e-36
+  L2 instance_material zs=0.085 ad=0.766 discordant 3->131 (worse->better) p=3.68e-35
+  L3 instance_material zs=0.064 ad=0.814 discordant 1->142 (worse->better) p=2.58e-41
 
 -- Qwen2.5-VL-7B
-  L0 instance_object   zs=0.095 ad=0.899 discordant 0->152 (worse->better) p=3.50e-46
-  L1 instance_object   zs=0.048 ad=0.947 discordant 0->170 (worse->better) p=1.34e-51
-  L2 instance_object   zs=0.016 ad=0.894 discordant 0->166 (worse->better) p=2.14e-50
-  L3 instance_object   zs=0.063 ad=0.947 discordant 0->167 (worse->better) p=1.07e-50
-  L0 instance_material zs=0.000 ad=0.622 discordant 0->117 (worse->better) p=1.20e-35
-  L1 instance_material zs=0.106 ad=0.840 discordant 12->150 (worse->better) p=1.67e-31
-  L2 instance_material zs=0.085 ad=0.777 discordant 4->134 (worse->better) p=8.55e-35
-  L3 instance_material zs=0.085 ad=0.894 discordant 5->157 (worse->better) p=3.09e-40
+  L0 instance_object   zs=0.095 ad=0.672 discordant 0->109 (worse->better) p=3.08e-33
+  L1 instance_object   zs=0.048 ad=0.878 discordant 0->157 (worse->better) p=1.09e-47
+  L2 instance_object   zs=0.016 ad=0.841 discordant 0->156 (worse->better) p=2.19e-47
+  L3 instance_object   zs=0.063 ad=0.942 discordant 0->166 (worse->better) p=2.14e-50
+  L0 instance_material zs=0.000 ad=0.473 discordant 0->89 (worse->better) p=3.23e-27
+  L1 instance_material zs=0.106 ad=0.745 discordant 9->129 (worse->better) p=2.36e-28
+  L2 instance_material zs=0.085 ad=0.676 discordant 8->119 (worse->better) p=1.69e-26
+  L3 instance_material zs=0.085 ad=0.777 discordant 1->131 (worse->better) p=4.89e-38
 
 ======================================================================
 4. ERROR COMPOSITION, material questions (from w6_typology.txt)

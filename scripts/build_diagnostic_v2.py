@@ -15,7 +15,8 @@ import numpy as np
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from src.cdw_vqa.codd import parse_xml, class_stats, CLASSES
-from src.cdw_vqa.arms import (arm_l0, arm_l1_inpaint, arm_l2_blur, arm_l3_crop,
+from src.cdw_vqa.arms import (arm_l0, arm_l1_inpaint, arm_l1_full_inpaint,
+                               arm_l2_blur, arm_l3_crop,
                               contact_sheet)
 
 ROOT = Path(r"datasets/codd/Construction and Demolition Waste Object Detection Dataset  (CODD)")
@@ -125,7 +126,8 @@ def main():
         img = cv2.imread(str(ci.path))
         mask = ci.mask_of(inst)
         loc = loc_ref(inst, ci)
-        arm_fns = {"L0": lambda: arm_l0(img), "L1": lambda: arm_l1_inpaint(img, mask),
+        l1_fn = arm_l1_full_inpaint if d["diag_id"] < 72 else arm_l1_inpaint
+        arm_fns = {"L0": lambda: arm_l0(img), "L1": lambda: l1_fn(img, mask),
                    "L2": lambda: arm_l2_blur(img, mask), "L3": lambda: arm_l3_crop(img, mask)}
         for arm_name, fn in arm_fns.items():
             fp = ARMS_OUT / f"{d['diag_id']:03d}_{arm_name}.jpg"

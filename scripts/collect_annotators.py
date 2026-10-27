@@ -109,8 +109,8 @@ def main():
             print(f"{n1} vs {n2}: k={k:.3f} (n={len(common)})")
 
     common = set(items)
-    for a in ann.values():
-        common &= set(a)
+    for n in full:
+        common &= set(ann[n])
     common = sorted(common)
     if len(ann) >= 2 and common:
         cats = ["PVC", "metal", "other"]
