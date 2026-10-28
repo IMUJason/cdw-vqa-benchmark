@@ -44,6 +44,12 @@ Two independent cohorts, both collected blind from single views with a forced ch
 | API delivery policy and mask | `scripts/api_policy.py` | `results/api_eval/api_*_v2.jsonl` |
 | Scene human reference | `scripts/scene_human_reference.py` | `data/benchmark_v1_scene_qa.jsonl`, `data/annotators_scene/` |
 
+## Human-response data use
+
+The per-annotator response files under `data/annotators/` and `data/annotators_scene/` are identified by the annotators' names, with their agreement, and carry per-item first-answer timestamps for provenance. All participants were informed of the purpose of the annotation and consented to named acknowledgement and to the release of their records; the annotation task collected no personal data beyond the responses themselves. Contact the corresponding author for any reuse beyond reproducing the reported statistics.
+
+A number of additional pipeline scripts beyond the numbered list above (refill/repair/audit helpers) are kept in `scripts/` for provenance; the numbered list covers the main construction-evaluation-adaptation path.
+
 ## Data sources (public)
 - CODD: Demetriou et al., Waste Management 178 (2024), Mendeley Data (CC BY)
 - CDW-Seg: Sirimewan et al., Scientific Data (2025), figshare (CC0)

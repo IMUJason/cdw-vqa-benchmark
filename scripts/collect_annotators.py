@@ -108,6 +108,7 @@ def main():
             k = cohen_kappa([a1[u] for u in common], [a2[u] for u in common])
             print(f"{n1} vs {n2}: k={k:.3f} (n={len(common)})")
 
+    full = [n for n, a in ann.items() if len(a) >= 190]  # >=190/200 = valid protocol
     common = set(items)
     for n in full:
         common &= set(ann[n])

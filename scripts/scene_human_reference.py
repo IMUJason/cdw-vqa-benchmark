@@ -12,6 +12,7 @@ Usage: python scripts/scene_human_reference.py
 import csv
 import json
 import statistics
+import sys
 from collections import Counter
 from pathlib import Path
 
@@ -80,7 +81,38 @@ def main():
         uids = [u for u in uid_truth if uid_fam[u] == fam and all(u in ans[w] for w in ans)]
         print(f"  {fam:18s} kappa={fleiss(uids, ans, list(ans)):+.3f}  "
               f"items={len(uids)} raters={len(ans)}")
+    return uid_truth, uid_fam
+
+
+def matched_models(uid_truth, uid_fam):
+    """Same 120 items, model side, unified answer rule (rescore_scene)."""
+    sys.path.insert(0, str(BASE / "scripts"))
+    from rescore_scene import unified, hit
+    files = {"Qwen3-VL": "scene_qwen3-vl-8b.jsonl", "Qwen2.5-VL": "scene_qwen2.5-vl-7b.jsonl",
+             "GLM-4.1V": "scene_glm-4.1v-9b.jsonl",
+             "Kimi-k3": "../api_eval/api_kimi_v2.jsonl", "GLM-5.3": "../api_eval/api_glm_v2.jsonl"}
+    want = {(uid.split("|")[1], uid.split("|")[2], uid_fam[uid]) for uid in uid_truth}
+    print("\nmatched-item model accuracy (same 120 items, unified rule):")
+    hdr = "model        "
+    print(hdr + "".join(f"{f[:2]+' '+d[:3]:>12s}" for f in FAMS for d in DSS))
+    for name, fn in files.items():
+        p = BASE / "results" / "scene_eval" / fn
+        if not p.exists():
+            continue
+        rows = [json.loads(l) for l in open(p, encoding="utf-8")]
+        if fn.startswith("../"):
+            rows = [r for r in rows if r.get("level") == "scene"]
+        cells = {}
+        for fam in FAMS:
+            for ds in DSS:
+                sel = [r for r in rows if r["family"] == fam and r.get("dataset") == ds
+                       and (ds, str(r.get("image_id")), fam) in want]
+                if sel:
+                    cells[(fam, ds)] = sum(hit(r, unified(r)) for r in sel) / len(sel)
+        print(f"{name:12s}" + "".join(f"{cells.get((f, d), float('nan')):12.3f}"
+                                      for f in FAMS for d in DSS))
 
 
 if __name__ == "__main__":
-    main()
+    _truth, _fam = main()
+    matched_models(_truth, _fam)

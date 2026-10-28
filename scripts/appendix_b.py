@@ -36,8 +36,8 @@ def cls(raw: str) -> str:
 ROWS = [("zs Qwen3-VL", "results/w6/responses_qwen3-vl-8b.jsonl"),
         ("zs Qwen2.5-VL", "results/w6/responses_qwen2.5-vl-7b.jsonl"),
         ("zs GLM-4.1V", "results/w6/responses_glm-4.1v-9b.jsonl"),
-        ("ad Qwen3-VL", "results/adapted/adapted_qwen3vl.jsonl"),
-        ("ad Qwen2.5-VL", "results/adapted/adapted_qwen25vl.jsonl")]
+        ("ad Qwen3-VL", "results/adapted/adapted_qwen3vl_v2.jsonl"),
+        ("ad Qwen2.5-VL", "results/adapted/adapted_qwen25vl_v2.jsonl")]
 
 if __name__ == "__main__":
     for name, p in ROWS:

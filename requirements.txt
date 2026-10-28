@@ -13,3 +13,5 @@ torch==2.11.0+cu130
 torchvision==0.26.0+cu130
 transformers==5.19.0
 trl==1.14.2
+paramiko>=3.4
+requests>=2.31
